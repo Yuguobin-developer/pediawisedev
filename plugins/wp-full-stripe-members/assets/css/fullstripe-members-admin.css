@@ -1,0 +1,4 @@
+.wp-list-table.members a.button {
+    display: inline-block;
+    margin: inherit;
+}

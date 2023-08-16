@@ -1,0 +1,326 @@
+/**
+ * Topics Page Style
+ */
+
+.single-post-page {
+    .post-wrp {
+
+        // Header Banner Section
+        .header-banner {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            height: auto;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+
+            .title {
+                height: 6.25rem;
+                width: 37.5rem;
+                background-size: 100% 100%;
+                background-position: left top;
+                background-repeat: no-repeat;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                @media (max-width: 767px) {
+                    width: 25rem;
+                    height: 5rem;
+                }
+
+                h1 {
+                    color: $light-color;
+                    font-size: 2.25rem;
+                    font-family: $primary-font;
+
+                    @media (max-width: 991px) {
+                        font-size: 2.125rem;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        // Post Title Part
+        .post-title {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+            text-align: center;
+            
+            h1 {
+                color: $primary;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+            }
+        }
+
+        // Feature Image
+        .feature-image {
+            padding-bottom: 3rem;
+        }
+
+        // Post Content
+        .post-content {
+            padding-bottom: 3rem;
+
+            ul {
+                padding-left: 0.9375rem;
+
+                li:before {
+                    content: url("../images/common/bullet_point.png");
+                    margin-right: 0.9375rem;
+                }
+            }
+
+            h3 {
+                @media (max-width: 767px) {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        // Sources Section
+        .sources-section {
+            padding-top: 4rem;
+            padding-bottom: 4rem; 
+
+            .section-title {
+                position: relative;
+                cursor: pointer;
+            }
+
+            .section-title:after {
+                background-position: calc(50% - 200px);
+                background-repeat: no-repeat;
+                background-size: 36px;
+                content: "";
+                display: block;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                transition: opacity .3s ease-in-out;
+                width: 100%;
+                transform: rotate(180deg);
+                background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJMYXllcl8xXzFfIj48cG9seWdvbiBwb2ludHM9IjQ4LjcwNywxMy44NTMgNDcuMjkzLDEyLjQ0IDI1LDM0LjczMiAyLjcwNywxMi40NCAxLjI5MywxMy44NTMgMjUsMzcuNTYgICIvPjwvZz48L3N2Zz4=");
+            }
+            .section-title.source-collapse:after {
+                background-position: calc(50% - 200px);
+                background-repeat: no-repeat;
+                background-size: 36px;
+                content: "";
+                display: block;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                transition: opacity .3s ease-in-out;
+                width: 100%;
+                transform: rotate(180deg);
+                background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJMYXllcl8xXzFfIj48cG9seWdvbiBwb2ludHM9IjI1LDE1LjI2OCA0Ny4yOTMsMzcuNTYgNDguNzA3LDM2LjE0NyAyNSwxMi40NCAxLjI5MywzNi4xNDcgMi43MDcsMzcuNTYgICIvPjwvZz48L3N2Zz4=");
+            }
+        }
+
+        // Related Posts Section
+        .related-posts-section {
+            background-color: $primary;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+
+            .related-posts-wrp {
+                margin-bottom: 0;
+
+                .slick-arrow {
+                    z-index: 1;
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+
+                .slick-prev {
+                    left: -3.125rem; 
+                    background-image: url('../images/common/arrow_left_light_blue.png');
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: contain;
+                    width: 1.875rem;
+                    height: 1.875rem;
+
+                    @media (max-width: 767px) {
+                      left: -1.5625rem;
+                    }
+
+                    @media (max-width: 552px) {
+                      left: -0.9375rem;
+                    }
+                 }
+
+                .slick-prev::before {
+                    display: none;
+                }
+
+                .slick-next {
+                    right: -3.125rem; 
+                    background-image: url('../images/common/arrow_right_light_blue.png');
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: contain;
+                    width: 1.875rem;
+                    height: 1.875rem;
+
+                    @media (max-width: 767px) {
+                      right: -1.5625rem;
+                    }
+
+                    @media (max-width: 552px) {
+                      right: -0.9375rem;
+                    }
+                }
+
+                .slick-next::before {
+                    display: none;
+                }
+
+                .slick-list {
+
+                    .slick-track {
+                         display: flex;
+
+                        .each {
+                            padding: 0 0.9375rem;
+                            height: auto;
+
+                            .each-wrp {
+                                background-color: #eef0f9;
+                                height: 100%;
+
+                                .img-wrp {
+                                    display: block;
+                                    width: 100%;
+                                    height: 0;
+                                    padding-bottom: 56.25%;
+                                    position: relative;
+                                    margin-bottom: 0.9375rem;
+                                    img {
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        object-position: center center;
+                                    }
+                                }
+
+                                .sub-title {
+                                    padding: 0.625rem 1.875rem;
+                                    text-align: center;
+
+                                    p {
+                                        font-size: 1.375rem;
+                                        font-family: $primary-font;
+                                        margin: 0;
+                                    }
+                                }
+                            }            
+                        }
+                    }
+                }
+            }
+        }
+
+        // Category Section
+        .category-section {
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+
+            .title {
+                padding-bottom: 1.875rem;
+
+                h2 {
+                    color: $primary;
+                    font-size: 3rem;
+                    font-family: $secondary-font;
+
+                    @media (max-width: 991px) {
+                        font-size: 2.75rem;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 2.25rem;
+                    }
+                }
+            }
+
+            .category-wrp {
+                display: flex;
+                justify-content: center;
+
+                @media (max-width: 767px) {
+                    display: block;
+                }
+
+                .each {
+                    width: 20%;
+
+                    @media (max-width: 767px) {
+                        width: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-bottom: 4rem;
+                    }
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .image-wrp {
+                        padding-bottom: 1.875rem;
+
+                        @media (max-width: 767px) {
+                            padding-bottom: 1.25rem;
+                        }
+
+                        img {
+                            max-width: 100%;
+                            width: 9.375rem;
+
+                            transition: transform 0.3s ease;
+
+                            &:hover {
+                                transform: scale(1.1, 1.1);
+                            }
+                        }
+                    }
+
+                    .sub-title {
+
+                        h3 {
+                            font-size: 1.25rem;
+                            color: $primary;
+                            font-family: $primary-font;
+                            margin: 0;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+

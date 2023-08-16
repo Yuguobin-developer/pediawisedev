@@ -1,0 +1,74 @@
+/**
+ * Form Style
+ */
+
+ .wpfs-form-group .wpfs-form-label {
+    color: $primary;
+}
+
+.wpfs-form.wpfs-w-60 {
+    max-width: initial !important;
+}
+
+.wpfs-form-actions {
+    width: 7.5rem;
+    height: 3.125rem;
+    background-image: url("../images/common/common_btn_bg_blue.png");
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+
+    &:hover {
+        -webkit-transform: scale(1.1,1.1);
+        transform: scale(1.1,1.1);
+    }
+
+    @media (max-width: 767px) {
+        width: 5rem;
+        height: 2.5rem;
+    }
+
+    .wpfs-btn-primary, 
+    button.wpfs-btn-primary[type=submit], 
+    .no-touch button.wpfs-btn-primary[type=submit] {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 1.125rem;
+        color: $white-color;
+        background: none;
+        height: 100%;
+        line-height: 100%;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+        margin: 0;
+
+        &.wpfs-btn-primary--loader {
+            font-size: 0;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 0.875rem;
+        }
+
+        &:hover {
+            color: $white-color !important;
+            background: none !important;
+            box-shadow: none !important;
+        }
+
+        &:focus, &:active {
+            outline: none !important;
+            box-shadow: none !important;
+            background-color: transparent !important;
+        }
+    }
+}

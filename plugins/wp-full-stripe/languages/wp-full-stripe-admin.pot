@@ -1,0 +1,2865 @@
+# Copyright (C) 2020 Mammothology
+# This file is distributed under the same license as the WP Full Stripe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Full Stripe 5.5.2\n"
+"Report-Msgid-Bugs-To: https://paymentsplugin.com/support/\n"
+"POT-Creation-Date: 2020-11-24 15:59:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/wp-full-stripe-admin-menu.php:459
+#: templates/admin/partials/settings_tab_email-receipts.php:31
+msgid "Stripe"
+msgstr ""
+
+#: includes/wp-full-stripe-admin-menu.php:464
+#: templates/admin/partials/create_checkout_donation_form.php:11
+#: templates/admin/partials/create_checkout_form.php:11
+#: templates/admin/partials/create_checkout_subscription_form.php:19
+#: templates/admin/partials/create_donation_form.php:11
+#: templates/admin/partials/create_inline_card_capture_form.php:11
+#: templates/admin/partials/create_payment_form.php:11
+#: templates/admin/partials/create_popup_card_capture_form.php:11
+#: templates/admin/partials/create_subscription_form.php:19
+#: templates/admin/partials/edit_checkout_donation_form.php:19
+#: templates/admin/partials/edit_checkout_form.php:17
+#: templates/admin/partials/edit_checkout_subscription_form.php:20
+#: templates/admin/partials/edit_inline_card_capture_form.php:19
+#: templates/admin/partials/edit_inline_donation_form.php:19
+#: templates/admin/partials/edit_payment_form.php:19
+#: templates/admin/partials/edit_popup_card_capture_form.php:17
+#: templates/admin/partials/edit_subscription_form.php:19
+msgid "Appearance"
+msgstr ""
+
+#: includes/wp-full-stripe-admin-menu.php:469
+msgid "Email Notifications"
+msgstr ""
+
+#: includes/wp-full-stripe-admin-menu.php:474
+msgid "Security"
+msgstr ""
+
+#: includes/wp-full-stripe-admin-menu.php:479
+msgid "Logs"
+msgstr ""
+
+#: includes/wp-full-stripe-admin-menu.php:506
+msgid "The selected tab content cannot be displayed: %s"
+msgstr ""
+
+#: includes/wp-full-stripe-admin-menu.php:509
+msgid "Invalid tab content."
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:195
+msgid "Authorized"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:197 includes/wp-full-stripe-tables.php:558
+#: includes/wp-full-stripe-tables.php:567
+msgid "Paid"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:199
+msgid "Expired"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:201
+msgid "Released"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:203 includes/wp-full-stripe-tables.php:560
+#: includes/wp-full-stripe-tables.php:570
+msgid "Refunded"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:205
+msgid "Failed"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:207
+msgid "Pending"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:209 includes/wp-full-stripe-tables.php:554
+#: templates/admin/fullstripe_card_captures_page.php:104
+#: templates/admin/fullstripe_card_captures_page.php:166
+#: templates/admin/fullstripe_payments_page.php:149
+#: templates/admin/fullstripe_payments_page.php:232
+msgid "Unknown"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:216
+msgid "No interval"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:219
+msgid "year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wp-full-stripe-admin.php:221
+msgid "month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wp-full-stripe-admin.php:223
+msgid "week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wp-full-stripe-admin.php:225
+msgid "day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wp-full-stripe-admin.php:237
+#: templates/admin/fullstripe_subscriptions_page.php:125
+msgid "No VAT"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:238
+msgid "Fixed rate"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:239
+msgid "Custom rate"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:253
+msgid "Payment receipt"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:256
+msgid "Card saved"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:259
+msgid "Subscription receipt"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:262
+msgid "Subscription ended"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:265
+msgid "Donation receipt"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:268
+msgid "Subscription update security code"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:303
+msgid "Subscription plan created "
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:310
+msgid "There was an error creating the plan: "
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:325 includes/wp-full-stripe-admin.php:327
+msgid "Field value is invalid."
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:330
+msgid "Required field."
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:1161
+msgid "Please enter a valid email address or leave the field empty"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:1968
+msgid "There was an error creating the recipient: %s"
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:2012
+msgid "There was an error creating the recipient: "
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:2042
+msgid "There was an error creating the transfer: "
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:2073
+msgid "There was an error updating the subscription plan: "
+msgstr ""
+
+#: includes/wp-full-stripe-admin.php:2105
+msgid "There was an error deleting the subscription plan: "
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:32
+msgid "Select All"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:212
+#: includes/wp-full-stripe-tables.php:295
+msgid "Subscriber"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:213
+#: templates/admin/fullstripe_subscriptions_page.php:24
+msgid "Subscribers"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:219
+msgid "No subscriptions found."
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:294
+#: includes/wp-full-stripe-tables.php:500
+#: includes/wp-full-stripe-tables.php:793
+#: includes/wp-full-stripe-tables.php:994
+#: templates/admin/fullstripe_card_captures_page.php:70
+#: templates/admin/fullstripe_card_captures_page.php:132
+#: templates/admin/fullstripe_donations_page.php:76
+#: templates/admin/fullstripe_donations_page.php:137
+#: templates/admin/fullstripe_payments_page.php:89
+#: templates/admin/fullstripe_payments_page.php:177
+#: templates/admin/fullstripe_subscriptions_page.php:82
+#: templates/admin/fullstripe_subscriptions_page.php:162
+#: templates/admin/fullstripe_subscriptions_page.php:236
+msgid "Actions"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:296
+#: includes/wp-full-stripe-tables.php:502
+#: includes/wp-full-stripe-tables.php:795
+#: includes/wp-full-stripe-tables.php:996
+#: templates/admin/fullstripe_card_captures_page.php:71
+#: templates/admin/fullstripe_card_captures_page.php:133
+#: templates/admin/fullstripe_donations_page.php:77
+#: templates/admin/fullstripe_donations_page.php:138
+#: templates/admin/fullstripe_payments_page.php:90
+#: templates/admin/fullstripe_payments_page.php:178
+#: templates/admin/fullstripe_subscriptions_page.php:83
+#: templates/admin/fullstripe_subscriptions_page.php:163
+msgid "Name"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:297
+#: includes/wp-full-stripe-tables.php:503
+#: includes/wp-full-stripe-tables.php:796
+#: includes/wp-full-stripe-tables.php:997
+msgid "E-mail"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:299
+#: includes/wp-full-stripe-tables.php:303
+msgid "Subscription"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:300
+msgid "Plan"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:301
+#: includes/wp-full-stripe-tables.php:800
+#: templates/admin/fullstripe_subscriptions_page.php:237
+msgid "ID"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:304
+#: includes/wp-full-stripe-tables.php:510
+#: includes/wp-full-stripe-tables.php:802
+msgid "Status"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:305
+#: includes/wp-full-stripe-tables.php:511
+#: includes/wp-full-stripe-tables.php:803
+#: includes/wp-full-stripe-tables.php:999
+msgid "Mode"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:307
+msgid "Billing"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:308
+msgid "Country"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:309
+msgid "VAT"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:311
+msgid "Created at"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:312
+#: includes/wp-full-stripe-tables.php:806
+#: includes/wp-full-stripe-tables.php:1001
+msgid "Form name"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:348
+#: includes/wp-full-stripe-tables.php:612
+#: includes/wp-full-stripe-tables.php:852
+#: includes/wp-full-stripe-tables.php:1045
+msgid "&lt;Not specified&gt;"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:363
+#: includes/wp-full-stripe-tables.php:637
+#: includes/wp-full-stripe-tables.php:864
+#: includes/wp-full-stripe-tables.php:1050
+#: templates/admin/fullstripe_card_captures_page.php:35
+#: templates/admin/fullstripe_donations_page.php:41
+#: templates/admin/fullstripe_payments_page.php:54
+#: templates/admin/fullstripe_subscriptions_page.php:47
+msgid "Test"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:363
+#: includes/wp-full-stripe-tables.php:637
+#: includes/wp-full-stripe-tables.php:864
+#: includes/wp-full-stripe-tables.php:1050
+#: templates/admin/fullstripe_card_captures_page.php:34
+#: templates/admin/fullstripe_donations_page.php:40
+#: templates/admin/fullstripe_payments_page.php:53
+#: templates/admin/fullstripe_subscriptions_page.php:46
+msgid "Live"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:382
+#: includes/wp-full-stripe-tables.php:652
+#: templates/admin/fullstripe_card_captures_page.php:95
+#: templates/admin/fullstripe_card_captures_page.php:157
+#: templates/admin/fullstripe_donations_page.php:104
+#: templates/admin/fullstripe_donations_page.php:165
+#: templates/admin/fullstripe_payments_page.php:116
+#: templates/admin/fullstripe_payments_page.php:202
+#: templates/admin/fullstripe_subscriptions_page.php:115
+#: templates/admin/fullstripe_subscriptions_page.php:195
+#: templates/admin/fullstripe_subscriptions_page.php:258
+#: templates/admin/partials/edit_checkout_form.php:137
+#: templates/admin/partials/edit_payment_form_tab_payment.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:384
+#: includes/wp-full-stripe-tables.php:648
+#: templates/admin/fullstripe_create_plan_page.php:125
+#: templates/admin/fullstripe_edit_plan_page.php:149
+#: templates/admin/partials/create_checkout_donation_form.php:253
+#: templates/admin/partials/create_checkout_form.php:187
+#: templates/admin/partials/create_checkout_subscription_form.php:116
+#: templates/admin/partials/create_donation_form.php:261
+#: templates/admin/partials/create_inline_card_capture_form.php:150
+#: templates/admin/partials/create_payment_form.php:331
+#: templates/admin/partials/create_popup_card_capture_form.php:97
+#: templates/admin/partials/create_subscription_form.php:270
+#: templates/admin/partials/edit_checkout_donation_form.php:41
+#: templates/admin/partials/edit_checkout_form.php:214
+#: templates/admin/partials/edit_checkout_subscription_form.php:144
+#: templates/admin/partials/edit_inline_card_capture_form.php:41
+#: templates/admin/partials/edit_inline_donation_form.php:41
+#: templates/admin/partials/edit_payment_form.php:41
+#: templates/admin/partials/edit_popup_card_capture_form.php:104
+#: templates/admin/partials/edit_subscription_form.php:319
+msgid "Cancel"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:418
+#: includes/wp-full-stripe-tables.php:505
+msgid "Donation"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:419
+#: templates/admin/fullstripe_donations_page.php:21
+msgid "Donations"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:425
+msgid "No donations found."
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:501
+msgid "Donor"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:506
+#: includes/wp-full-stripe-tables.php:799
+#: templates/admin/fullstripe_card_captures_page.php:72
+#: templates/admin/fullstripe_card_captures_page.php:134
+#: templates/admin/fullstripe_payments_page.php:91
+#: templates/admin/fullstripe_payments_page.php:179
+#: templates/admin/fullstripe_subscriptions_page.php:239
+#: templates/admin/partials/create_checkout_donation_form.php:68
+#: templates/admin/partials/create_checkout_form.php:117
+#: templates/admin/partials/create_donation_form.php:68
+#: templates/admin/partials/create_payment_form.php:117
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:60
+#: templates/admin/partials/edit_checkout_form.php:123
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:60
+#: templates/admin/partials/edit_payment_form_tab_payment.php:107
+msgid "Amount"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:507
+msgid "Frequency"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:509
+#: includes/wp-full-stripe-tables.php:513
+#: includes/wp-full-stripe-tables.php:684
+#: includes/wp-full-stripe-tables.php:798
+#: templates/admin/partials/create_checkout_donation_form.php:10
+#: templates/admin/partials/create_checkout_form.php:10
+#: templates/admin/partials/create_checkout_subscription_form.php:17
+#: templates/admin/partials/create_donation_form.php:10
+#: templates/admin/partials/create_inline_card_capture_form.php:10
+#: templates/admin/partials/create_payment_form.php:10
+#: templates/admin/partials/create_popup_card_capture_form.php:10
+#: templates/admin/partials/create_subscription_form.php:17
+#: templates/admin/partials/edit_checkout_donation_form.php:18
+#: templates/admin/partials/edit_checkout_form.php:16
+#: templates/admin/partials/edit_checkout_subscription_form.php:18
+#: templates/admin/partials/edit_inline_card_capture_form.php:18
+#: templates/admin/partials/edit_inline_donation_form.php:18
+#: templates/admin/partials/edit_payment_form.php:18
+#: templates/admin/partials/edit_popup_card_capture_form.php:16
+#: templates/admin/partials/edit_subscription_form.php:17
+msgid "Payment"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:514
+msgid "Form name, Date"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:515
+msgid "IDs"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:530
+msgid "One-time"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:534
+#: templates/admin/fullstripe_create_plan_page.php:85
+#: templates/admin/partials/create_checkout_donation_form.php:82
+#: templates/admin/partials/create_donation_form.php:82
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:90
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:90
+msgid "Daily"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:538
+#: templates/admin/fullstripe_create_plan_page.php:86
+#: templates/admin/partials/create_checkout_donation_form.php:83
+#: templates/admin/partials/create_donation_form.php:83
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:91
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:91
+msgid "Weekly"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:542
+#: templates/admin/fullstripe_create_plan_page.php:87
+#: templates/admin/partials/create_checkout_donation_form.php:84
+#: templates/admin/partials/create_donation_form.php:84
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:92
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:92
+msgid "Monthly"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:546
+#: templates/admin/partials/create_checkout_donation_form.php:85
+#: templates/admin/partials/create_donation_form.php:85
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:93
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:93
+msgid "Annual"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:564
+msgid "Running"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:644
+#: includes/wp-full-stripe-tables.php:881
+msgid "Refund"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:685
+#: templates/admin/fullstripe_payments_page.php:17
+msgid "Payments"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:794
+#: includes/wp-full-stripe-tables.php:995
+msgid "Customer"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:805
+#: includes/wp-full-stripe-tables.php:1000
+msgid "Date"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:876
+msgid "Capture"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:885
+msgid "Release"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:890
+#: includes/wp-full-stripe-tables.php:1059
+msgid "Delete (local)"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:910
+msgid "No payments found."
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:919
+msgid "Saved card"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:920
+msgid "Saved cards"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:1073
+msgid "No saved cards found."
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:1082
+msgid "Log entry"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:1083
+msgid "Log entries"
+msgstr ""
+
+#: includes/wp-full-stripe-tables.php:1220
+msgid "No log entries found."
+msgstr ""
+
+#: templates/admin/fullstripe_about_page.php:19
+msgid "Welcome to WP Full Stripe"
+msgstr ""
+
+#: templates/admin/fullstripe_about_page.php:22
+msgid ""
+"Accept payments and subscriptions from your WordPress website. Created by "
+"<a target=\"_blank\" href=\"%s\">Mammothology</a><div class=\"\"></div>"
+msgstr ""
+
+#: templates/admin/fullstripe_about_page.php:26
+msgid "News"
+msgstr ""
+
+#: templates/admin/fullstripe_about_page.php:27
+msgid "Help & Support"
+msgstr ""
+
+#: templates/admin/fullstripe_about_page.php:28
+msgid "Changelog"
+msgstr ""
+
+#: templates/admin/fullstripe_admin_page.php:6
+msgid "Full Stripe Settings"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:12
+msgid "Full Stripe Saved Cards"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:17
+msgid "Saved Cards"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:18
+msgid "Save Card Forms"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:25
+#: templates/admin/fullstripe_card_captures_page.php:60
+#: templates/admin/fullstripe_create_plan_page.php:126
+#: templates/admin/fullstripe_donations_page.php:31
+#: templates/admin/fullstripe_donations_page.php:66
+#: templates/admin/fullstripe_donations_page.php:127
+#: templates/admin/fullstripe_edit_plan_page.php:150
+#: templates/admin/fullstripe_payments_page.php:25
+#: templates/admin/fullstripe_payments_page.php:79
+#: templates/admin/fullstripe_subscriptions_page.php:37
+#: templates/admin/fullstripe_subscriptions_page.php:72
+#: templates/admin/fullstripe_subscriptions_page.php:152
+#: templates/admin/fullstripe_subscriptions_page.php:226
+#: templates/admin/partials/create_checkout_donation_form.php:254
+#: templates/admin/partials/create_checkout_form.php:188
+#: templates/admin/partials/create_checkout_subscription_form.php:117
+#: templates/admin/partials/create_donation_form.php:262
+#: templates/admin/partials/create_inline_card_capture_form.php:151
+#: templates/admin/partials/create_payment_form.php:332
+#: templates/admin/partials/create_popup_card_capture_form.php:98
+#: templates/admin/partials/create_subscription_form.php:271
+#: templates/admin/partials/edit_checkout_donation_form.php:42
+#: templates/admin/partials/edit_checkout_form.php:215
+#: templates/admin/partials/edit_checkout_subscription_form.php:145
+#: templates/admin/partials/edit_inline_card_capture_form.php:42
+#: templates/admin/partials/edit_inline_donation_form.php:42
+#: templates/admin/partials/edit_payment_form.php:42
+#: templates/admin/partials/edit_popup_card_capture_form.php:105
+#: templates/admin/partials/edit_subscription_form.php:320
+#: templates/admin/partials/settings_tab_appearance.php:108
+#: templates/admin/partials/settings_tab_email-receipts.php:100
+#: templates/admin/partials/settings_tab_logs.php:15
+#: templates/admin/partials/settings_tab_security.php:139
+#: templates/admin/partials/settings_tab_stripe.php:100
+msgid "Loading..."
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:30
+#: templates/admin/fullstripe_payments_page.php:29
+msgid "Customer: "
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:30
+#: templates/admin/fullstripe_donations_page.php:35
+#: templates/admin/fullstripe_payments_page.php:29
+#: templates/admin/fullstripe_subscriptions_page.php:41
+msgid "Enter name, email address, or stripe ID"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:31
+#: templates/admin/fullstripe_donations_page.php:37
+#: templates/admin/fullstripe_payments_page.php:50
+#: templates/admin/fullstripe_subscriptions_page.php:43
+msgid "Mode: "
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:33
+#: templates/admin/fullstripe_donations_page.php:39
+#: templates/admin/fullstripe_payments_page.php:33
+#: templates/admin/fullstripe_payments_page.php:52
+#: templates/admin/fullstripe_subscriptions_page.php:45
+#: templates/admin/partials/settings_tab_logs.php:21
+#: templates/admin/partials/settings_tab_logs.php:40
+msgid "All"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:38
+#: templates/admin/fullstripe_donations_page.php:44
+#: templates/admin/fullstripe_payments_page.php:57
+#: templates/admin/fullstripe_subscriptions_page.php:50
+#: templates/admin/partials/settings_tab_logs.php:58
+msgid "Search"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:38
+#: templates/admin/fullstripe_donations_page.php:44
+#: templates/admin/fullstripe_payments_page.php:57
+#: templates/admin/fullstripe_subscriptions_page.php:50
+#: templates/admin/partials/settings_tab_logs.php:58
+msgid "or"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:39
+#: templates/admin/fullstripe_donations_page.php:45
+#: templates/admin/fullstripe_payments_page.php:58
+#: templates/admin/fullstripe_subscriptions_page.php:51
+#: templates/admin/partials/settings_tab_logs.php:59
+msgid "Reset"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:51
+msgid "Your Inline Forms for Saving Cards"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:58
+#: templates/admin/fullstripe_donations_page.php:64
+#: templates/admin/fullstripe_payments_page.php:77
+#: templates/admin/fullstripe_subscriptions_page.php:70
+msgid "Create Inline Form"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:64
+msgid ""
+"You have created no inline forms for saving cards yet. Use the 'Create "
+"Inline Saved Card Form' button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:83
+#: templates/admin/fullstripe_card_captures_page.php:145
+#: templates/admin/fullstripe_donations_page.php:92
+#: templates/admin/fullstripe_donations_page.php:153
+#: templates/admin/fullstripe_payments_page.php:104
+#: templates/admin/fullstripe_payments_page.php:190
+#: templates/admin/fullstripe_subscriptions_page.php:103
+#: templates/admin/fullstripe_subscriptions_page.php:183
+msgid "Shortcode"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:93
+#: templates/admin/fullstripe_card_captures_page.php:155
+#: templates/admin/fullstripe_donations_page.php:102
+#: templates/admin/fullstripe_donations_page.php:163
+#: templates/admin/fullstripe_payments_page.php:114
+#: templates/admin/fullstripe_payments_page.php:200
+#: templates/admin/fullstripe_subscriptions_page.php:113
+#: templates/admin/fullstripe_subscriptions_page.php:193
+#: templates/admin/fullstripe_subscriptions_page.php:256
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:102
+#: templates/admin/fullstripe_card_captures_page.php:164
+msgid "Save card only"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:114
+msgid "Your Checkout Forms for Saving Cards"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:121
+#: templates/admin/fullstripe_donations_page.php:125
+#: templates/admin/fullstripe_payments_page.php:166
+#: templates/admin/fullstripe_subscriptions_page.php:150
+msgid "Create Checkout Form"
+msgstr ""
+
+#: templates/admin/fullstripe_card_captures_page.php:126
+msgid ""
+"You have created no checkout forms for saving cards yet. Use the 'Create "
+"Checkout Save Card Form' button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_create_form_page.php:18
+msgid "Full Stripe Create Form"
+msgstr ""
+
+#: templates/admin/fullstripe_create_form_page.php:29
+#: templates/admin/fullstripe_create_form_page.php:30
+#: templates/admin/partials/create_inline_card_capture_form.php:57
+msgid "Save Card Details"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:10
+msgid "Create subscription plan"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:18
+#: templates/admin/fullstripe_edit_plan_page.php:41
+msgid "ID:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:22
+msgid ""
+"This ID is used to identify this plan when creating a subscription form and "
+"on your Stripe dashboard."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:27
+msgid "Display Name:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:31
+msgid "The name you wish to be displayed to customers for this plan."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:36
+#: templates/admin/partials/create_checkout_form.php:76
+#: templates/admin/partials/create_payment_form.php:76
+#: templates/admin/partials/edit_checkout_form.php:83
+#: templates/admin/partials/edit_payment_form_tab_payment.php:67
+msgid "Payment Currency: "
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:41
+#: templates/admin/partials/create_checkout_donation_form.php:43
+#: templates/admin/partials/create_checkout_form.php:81
+#: templates/admin/partials/create_donation_form.php:43
+#: templates/admin/partials/create_payment_form.php:81
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:35
+#: templates/admin/partials/edit_checkout_form.php:88
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:35
+#: templates/admin/partials/edit_payment_form_tab_payment.php:72
+#: templates/admin/partials/redirect_to_for_create.php:28
+#: templates/admin/partials/redirect_to_for_edit.php:28
+msgid "Select from the list or start typing"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:63
+#: templates/admin/partials/create_payment_form.php:103
+#: templates/admin/partials/edit_checkout_form.php:110
+#: templates/admin/partials/edit_payment_form_tab_payment.php:94
+msgid "Payment Amount:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:67
+msgid ""
+"The amount this plan will charge your customer, in the smallest unit for "
+"the currency. i.e. for $10.00 enter 1000, for ¥10 enter 10."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:72
+#: templates/admin/fullstripe_edit_plan_page.php:73
+msgid "Setup Fee:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:76
+#: templates/admin/fullstripe_edit_plan_page.php:77
+msgid ""
+"Amount to charge the customer to setup the subscription, in the smallest "
+"unit for the currency. i.e. for $10.00 enter 1000, for ¥10 enter 10. "
+"Entering 0 will disable."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:81
+msgid "Payment Interval:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:88
+msgid "Yearly"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:90
+msgid "How often the payment amount is charged to the customer."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:95
+msgid "Payment Interval Count:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:99
+msgid ""
+"You could specify an interval count of 3 and an interval of 'Monthly' for "
+"quarterly billing (every 3 months). Default is 1 for "
+"Daily/Weekly/Monthly/Yearly."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:105
+msgid "Payment Cancellation Count:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:109
+msgid ""
+"You could specify the number of charges after which the subscription is "
+"cancelled. Set to 0 to let the subscription run forever."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:115
+msgid "Trial Period Days:"
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:119
+msgid ""
+"How many trial days the customer has before being charged. Set to 0 to "
+"disable trial period."
+msgstr ""
+
+#: templates/admin/fullstripe_create_plan_page.php:124
+msgid "Create Plan"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:17
+msgid "Full Stripe Donations"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:24
+msgid "Donation Forms"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:35
+msgid "Donor: "
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:36
+msgid "Donation: "
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:36
+msgid "Enter payment ID"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:57
+#: templates/admin/fullstripe_payments_page.php:70
+#: templates/admin/fullstripe_subscriptions_page.php:63
+msgid "Your Inline Forms"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:70
+msgid ""
+"No inline donation forms created yet. Use the 'Create Inline Form' button "
+"to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:78
+#: templates/admin/fullstripe_donations_page.php:139
+msgid "Donation amounts"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:118
+#: templates/admin/fullstripe_payments_page.php:159
+#: templates/admin/fullstripe_subscriptions_page.php:143
+msgid "Your Checkout Forms"
+msgstr ""
+
+#: templates/admin/fullstripe_donations_page.php:131
+msgid ""
+"No checkout donation forms created yet. Use the 'Create Checkout Form' "
+"button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_edit_form_page.php:59
+msgid "Full Stripe Edit Form"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_form_page.php:63
+msgid "Form not found!"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:28
+msgid "Modify subscription plan"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:32
+msgid "Plan not found!"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:49
+msgid "Price:"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:58
+msgid "%s / %d day"
+msgid_plural "%s / %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:60
+msgid "%s / %d week"
+msgid_plural "%s / %d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:62
+msgid "%s / %d month"
+msgid_plural "%s / %d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:64
+msgid "%s / %d year"
+msgid_plural "%s / %d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:82
+msgid "Duration:"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:86
+#: templates/admin/fullstripe_subscriptions_page.php:291
+msgid "Forever"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:98
+#: templates/admin/fullstripe_subscriptions_page.php:285
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:100
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:102
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:104
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:107
+#: templates/admin/fullstripe_subscriptions_page.php:294
+msgid "%d charge"
+msgid_plural "%d charges"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:109
+msgid "%d charge (%s)"
+msgid_plural "%d charges (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:123
+msgid "Trial:"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:126
+msgid "No trial"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:131
+msgid "Display name:"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:139
+msgid "Statement descriptor:"
+msgstr ""
+
+#: templates/admin/fullstripe_edit_plan_page.php:148
+msgid "Modify plan"
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:12
+msgid "Full Stripe Payments"
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:18
+msgid "Payment Forms"
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:30
+msgid "Payment: "
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:30
+msgid "Enter charge ID"
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:31
+msgid "Status: "
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:83
+msgid ""
+"You have created no inline payment forms yet. Use the 'Create Inline Form' "
+"button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:147
+#: templates/admin/fullstripe_payments_page.php:230
+msgid "Custom"
+msgstr ""
+
+#: templates/admin/fullstripe_payments_page.php:171
+msgid ""
+"You have created no checkout forms yet. Use the 'Create Checkout Form' "
+"button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:20
+msgid "Full Stripe Subscriptions"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:27
+msgid "Subscription Forms"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:30
+msgid "Subscription Plans"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:41
+msgid "Subscriber: "
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:42
+msgid "Subscription: "
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:42
+msgid "Enter subscription ID"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:76
+msgid ""
+"No inline subscription forms created yet. Use the 'Create Inline Form' "
+"button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:84
+#: templates/admin/fullstripe_subscriptions_page.php:164
+msgid "Plan IDs"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:85
+#: templates/admin/fullstripe_subscriptions_page.php:165
+msgid "VAT rate"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:129
+msgid "Custom VAT"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:131
+msgid "Unknown VAT rate Type"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:156
+msgid ""
+"No checkout subscription forms created yet. Use the 'Create Checkout Form' "
+"button to get started."
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:204
+msgid "No VAT (Not supported)"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:218
+msgid "Your Subscription Plans"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:224
+msgid "Create Subscription Plan"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:230
+msgid ""
+"You have no subscription plans created yet. Use the Subscription Plans tab "
+"to get started"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:238
+msgid "Display Name"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:240
+msgid "Setup Fee"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:241
+msgid "Trial"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:242
+msgid "Duration"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:279
+msgid "No setup fee"
+msgstr ""
+
+#: templates/admin/fullstripe_subscriptions_page.php:287
+msgid "No Trial"
+msgstr ""
+
+#: templates/admin/partials/about_help_and_support.php:22
+msgid ""
+"Check out our <a href=\"%s\" target=\"_blank\">Help section</a> or visit "
+"the <a href=\"%s\" target=\"_blank\">Support page</a> if you have questions."
+msgstr ""
+
+#: templates/admin/partials/about_help_and_support.php:23
+msgid ""
+"You can subscribe for premium support for FREE by <a href=\"%s\" "
+"target=\"_blank\">adding your email address to our mailing list</a>."
+msgstr ""
+
+#: templates/admin/partials/about_help_and_support.php:24
+msgid "Subscribe for premium support"
+msgstr ""
+
+#: templates/admin/partials/about_news.php:14
+msgid "The newsfeed is not available at the moment."
+msgstr ""
+
+#: templates/admin/partials/about_news.php:15
+msgid "Please check back later."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:9
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:9
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:10
+msgid "Pay With Card"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:12
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:12
+msgid "Pay {{amount}}"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:18
+#: templates/admin/partials/create_checkout_donation_form.php:137
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:50
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:30
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:26
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:56
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:56
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:39
+msgid "Open Form Button Text:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:23
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:55
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:35
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:31
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:61
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:44
+msgid "The text on the button used to pop open this form."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:28
+#: templates/admin/partials/create_checkout_donation_form.php:147
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:93
+#: templates/admin/partials/create_checkout_subscription_form_tab_finance.php:12
+#: templates/admin/partials/create_donation_form.php:115
+#: templates/admin/partials/create_inline_card_capture_form.php:64
+#: templates/admin/partials/create_payment_form.php:185
+#: templates/admin/partials/create_subscription_form_tab_finance.php:42
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:36
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:66
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:99
+#: templates/admin/partials/edit_checkout_subscription_form_tab_finance.php:12
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:36
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:36
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:67
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:45
+msgid "Collect Billing Address?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:33
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:65
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:98
+#: templates/admin/partials/create_checkout_subscription_form_tab_finance.php:17
+#: templates/admin/partials/create_payment_form.php:173
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:41
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:71
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:104
+#: templates/admin/partials/edit_checkout_subscription_form_tab_finance.php:17
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:55
+msgid "Hide"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:37
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:69
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:102
+#: templates/admin/partials/create_checkout_subscription_form_tab_finance.php:21
+#: templates/admin/partials/create_payment_form.php:177
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:45
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:75
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:108
+#: templates/admin/partials/edit_checkout_subscription_form_tab_finance.php:21
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:59
+msgid "Show"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:40
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:105
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:48
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:111
+msgid "Should this payment form also ask for the customers billing address?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:45
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:110
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:57
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:53
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:83
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:116
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:66
+msgid "Checkout Form Language: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:49
+#: templates/admin/partials/create_checkout_donation_form.php:168
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:114
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:61
+#: templates/admin/partials/create_donation_form.php:176
+#: templates/admin/partials/create_inline_card_capture_form.php:125
+#: templates/admin/partials/create_payment_form.php:246
+#: templates/admin/partials/create_subscription_form.php:185
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:57
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:87
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:120
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:70
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:102
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:102
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:133
+#: templates/admin/partials/edit_subscription_form.php:231
+msgid "Auto"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_card_capture_form_tab_appearance.php:61
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:126
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:73
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:72
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:102
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:135
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:85
+msgid ""
+"Display the checkout form in the selected language. Use 'Auto' to determine "
+"the language from the locale sent by the customer's browser."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:12
+#: templates/admin/partials/create_checkout_form.php:12
+#: templates/admin/partials/create_checkout_subscription_form.php:20
+#: templates/admin/partials/create_donation_form.php:12
+#: templates/admin/partials/create_inline_card_capture_form.php:12
+#: templates/admin/partials/create_payment_form.php:12
+#: templates/admin/partials/create_popup_card_capture_form.php:12
+#: templates/admin/partials/create_subscription_form.php:20
+#: templates/admin/partials/edit_checkout_donation_form.php:20
+#: templates/admin/partials/edit_checkout_form.php:18
+#: templates/admin/partials/edit_checkout_subscription_form.php:21
+#: templates/admin/partials/edit_inline_card_capture_form.php:20
+#: templates/admin/partials/edit_inline_donation_form.php:20
+#: templates/admin/partials/edit_payment_form.php:20
+#: templates/admin/partials/edit_popup_card_capture_form.php:18
+#: templates/admin/partials/edit_subscription_form.php:20
+msgid "Custom Fields"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:13
+#: templates/admin/partials/create_checkout_form.php:13
+#: templates/admin/partials/create_checkout_subscription_form.php:21
+#: templates/admin/partials/create_donation_form.php:13
+#: templates/admin/partials/create_inline_card_capture_form.php:13
+#: templates/admin/partials/create_payment_form.php:13
+#: templates/admin/partials/create_popup_card_capture_form.php:13
+#: templates/admin/partials/create_subscription_form.php:21
+#: templates/admin/partials/edit_checkout_donation_form.php:21
+#: templates/admin/partials/edit_checkout_form.php:19
+#: templates/admin/partials/edit_checkout_subscription_form.php:22
+#: templates/admin/partials/edit_inline_card_capture_form.php:21
+#: templates/admin/partials/edit_inline_donation_form.php:21
+#: templates/admin/partials/edit_payment_form.php:21
+#: templates/admin/partials/edit_popup_card_capture_form.php:19
+#: templates/admin/partials/edit_subscription_form.php:21
+msgid "Actions after payment"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:22
+#: templates/admin/partials/create_checkout_form.php:22
+#: templates/admin/partials/create_checkout_subscription_form.php:30
+#: templates/admin/partials/create_donation_form.php:22
+#: templates/admin/partials/create_inline_card_capture_form.php:22
+#: templates/admin/partials/create_payment_form.php:22
+#: templates/admin/partials/create_popup_card_capture_form.php:22
+#: templates/admin/partials/create_subscription_form.php:30
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:12
+#: templates/admin/partials/edit_checkout_form.php:29
+#: templates/admin/partials/edit_checkout_subscription_form.php:32
+#: templates/admin/partials/edit_inline_card_capture_form_tab_payment.php:12
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:12
+#: templates/admin/partials/edit_payment_form_tab_payment.php:12
+#: templates/admin/partials/edit_popup_card_capture_form.php:29
+#: templates/admin/partials/edit_subscription_form.php:31
+msgid "Form Type:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:24
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:15
+msgid "Checkout donation form"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:28
+#: templates/admin/partials/create_checkout_form.php:28
+#: templates/admin/partials/create_checkout_subscription_form.php:36
+#: templates/admin/partials/create_donation_form.php:28
+#: templates/admin/partials/create_inline_card_capture_form.php:28
+#: templates/admin/partials/create_payment_form.php:28
+#: templates/admin/partials/create_popup_card_capture_form.php:28
+#: templates/admin/partials/create_subscription_form.php:36
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:20
+#: templates/admin/partials/edit_checkout_form.php:35
+#: templates/admin/partials/edit_checkout_subscription_form.php:38
+#: templates/admin/partials/edit_inline_card_capture_form_tab_payment.php:20
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:20
+#: templates/admin/partials/edit_payment_form_tab_payment.php:20
+#: templates/admin/partials/edit_popup_card_capture_form.php:35
+#: templates/admin/partials/edit_subscription_form.php:37
+msgid "Form Name:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:33
+#: templates/admin/partials/create_donation_form.php:33
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_donation\"]"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:38
+#: templates/admin/partials/create_donation_form.php:38
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:30
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:30
+msgid "Donation Currency: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:65
+#: templates/admin/partials/create_donation_form.php:65
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:57
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:57
+msgid "Donation Amount Options:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:69
+#: templates/admin/partials/create_checkout_form.php:116
+#: templates/admin/partials/create_donation_form.php:69
+#: templates/admin/partials/create_payment_form.php:116
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:61
+#: templates/admin/partials/edit_checkout_form.php:123
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:61
+#: templates/admin/partials/edit_payment_form_tab_payment.php:107
+msgid "Add"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:71
+#: templates/admin/partials/create_donation_form.php:71
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:79
+msgid ""
+"The amount is in the smallest unit for the currency. i.e. for $10.00 enter "
+"1000, for ¥10 enter 10. You can use drag'n'drop to reorder the donation "
+"amounts."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:73
+#: templates/admin/partials/create_checkout_form.php:123
+#: templates/admin/partials/create_donation_form.php:73
+#: templates/admin/partials/create_payment_form.php:123
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:81
+#: templates/admin/partials/edit_checkout_form.php:150
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:81
+#: templates/admin/partials/edit_payment_form_tab_payment.php:137
+msgid "Allow Custom Amount to Be Entered?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:79
+#: templates/admin/partials/create_donation_form.php:79
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:87
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:87
+msgid "Recurring Donation Frequencies:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:91
+#: templates/admin/partials/create_donation_form.php:91
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:99
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:99
+msgid "Donation description: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:96
+#: templates/admin/partials/create_checkout_form.php:135
+#: templates/admin/partials/create_donation_form.php:96
+#: templates/admin/partials/create_payment_form.php:135
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:104
+#: templates/admin/partials/edit_checkout_form.php:162
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:104
+#: templates/admin/partials/edit_payment_form_tab_payment.php:149
+msgid ""
+"It appears in the \"Payment details\" section of the payment on the Stripe "
+"dashboard. You can use placeholders, see the <a target=\"_blank\" "
+"href=\"%s\">Help page</a> for more options."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:105
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:18
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:26
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:26
+msgid "Product Name:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:110
+msgid "The name of the product or service sold using this form."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:115
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:28
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:36
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:36
+msgid "Product Description:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:120
+msgid ""
+"A short description (one line) about the product or service sold using this "
+"form."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:125
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:46
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:46
+msgid "Product Image:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:128
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:41
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:49
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:49
+msgid "Enter image URL"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:129
+#: templates/admin/partials/create_checkout_donation_form.php:130
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:42
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:43
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:50
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:50
+msgid "Upload Image"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:132
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:45
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:51
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:51
+msgid ""
+"A square image of your brand or product which is shown on the form. Min "
+"size 128px x 128px."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:140
+#: templates/admin/partials/create_donation_form.php:108
+msgid "Donate"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:142
+#: templates/admin/partials/create_donation_form.php:110
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:61
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:31
+msgid ""
+"You can use the {{amount}} placeholder to display the selected/entered "
+"donation amount."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:152
+#: templates/admin/partials/create_checkout_form.php:155
+#: templates/admin/partials/create_checkout_form.php:172
+#: templates/admin/partials/create_checkout_subscription_form.php:50
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:45
+#: templates/admin/partials/create_donation_form.php:120
+#: templates/admin/partials/create_donation_form.php:160
+#: templates/admin/partials/create_inline_card_capture_form.php:69
+#: templates/admin/partials/create_inline_card_capture_form.php:109
+#: templates/admin/partials/create_payment_form.php:190
+#: templates/admin/partials/create_payment_form.php:230
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:17
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:33
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:20
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:58
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:76
+#: templates/admin/partials/create_popup_card_capture_form.php:65
+#: templates/admin/partials/create_popup_card_capture_form.php:82
+#: templates/admin/partials/create_subscription_form.php:50
+#: templates/admin/partials/create_subscription_form.php:66
+#: templates/admin/partials/create_subscription_form.php:112
+#: templates/admin/partials/create_subscription_form_tab_finance.php:47
+#: templates/admin/partials/create_subscription_form_tab_finance.php:86
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:71
+#: templates/admin/partials/edit_checkout_form.php:182
+#: templates/admin/partials/edit_checkout_form.php:199
+#: templates/admin/partials/edit_checkout_subscription_form.php:53
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:54
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:41
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:86
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:41
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:86
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:17
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:34
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:72
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:117
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:22
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:60
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:79
+#: templates/admin/partials/edit_popup_card_capture_form.php:72
+#: templates/admin/partials/edit_popup_card_capture_form.php:89
+#: templates/admin/partials/edit_subscription_form.php:52
+#: templates/admin/partials/edit_subscription_form.php:69
+#: templates/admin/partials/edit_subscription_form.php:115
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:50
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:95
+#: templates/admin/partials/settings_tab_email-receipts.php:84
+#: templates/admin/partials/settings_tab_security.php:37
+#: templates/admin/partials/settings_tab_security.php:52
+#: templates/admin/partials/settings_tab_security.php:67
+#: templates/admin/partials/settings_tab_security.php:82
+#: templates/admin/partials/settings_tab_security.php:113
+#: templates/admin/partials/settings_tab_security.php:128
+msgid "No"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:156
+#: templates/admin/partials/create_checkout_form.php:159
+#: templates/admin/partials/create_checkout_form.php:176
+#: templates/admin/partials/create_checkout_subscription_form.php:54
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:49
+#: templates/admin/partials/create_donation_form.php:124
+#: templates/admin/partials/create_donation_form.php:164
+#: templates/admin/partials/create_inline_card_capture_form.php:73
+#: templates/admin/partials/create_inline_card_capture_form.php:113
+#: templates/admin/partials/create_payment_form.php:194
+#: templates/admin/partials/create_payment_form.php:234
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:21
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:37
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:24
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:62
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:80
+#: templates/admin/partials/create_popup_card_capture_form.php:69
+#: templates/admin/partials/create_popup_card_capture_form.php:86
+#: templates/admin/partials/create_subscription_form.php:54
+#: templates/admin/partials/create_subscription_form.php:70
+#: templates/admin/partials/create_subscription_form.php:116
+#: templates/admin/partials/create_subscription_form_tab_finance.php:51
+#: templates/admin/partials/create_subscription_form_tab_finance.php:90
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:75
+#: templates/admin/partials/edit_checkout_form.php:186
+#: templates/admin/partials/edit_checkout_form.php:203
+#: templates/admin/partials/edit_checkout_subscription_form.php:57
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:58
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:45
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:90
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:45
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:90
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:21
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:38
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:76
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:121
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:26
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:64
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:83
+#: templates/admin/partials/edit_popup_card_capture_form.php:76
+#: templates/admin/partials/edit_popup_card_capture_form.php:93
+#: templates/admin/partials/edit_subscription_form.php:56
+#: templates/admin/partials/edit_subscription_form.php:73
+#: templates/admin/partials/edit_subscription_form.php:119
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:54
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:99
+#: templates/admin/partials/settings_tab_security.php:41
+#: templates/admin/partials/settings_tab_security.php:56
+#: templates/admin/partials/settings_tab_security.php:71
+#: templates/admin/partials/settings_tab_security.php:86
+#: templates/admin/partials/settings_tab_security.php:117
+#: templates/admin/partials/settings_tab_security.php:132
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:159
+#: templates/admin/partials/create_donation_form.php:127
+#: templates/admin/partials/create_inline_card_capture_form.php:76
+#: templates/admin/partials/create_payment_form.php:197
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:78
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:48
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:48
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:79
+msgid "Should this payment form also ask for the customers' billing address?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:164
+#: templates/admin/partials/create_donation_form.php:172
+#: templates/admin/partials/create_inline_card_capture_form.php:121
+#: templates/admin/partials/create_payment_form.php:242
+#: templates/admin/partials/create_subscription_form.php:181
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:98
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:98
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:129
+#: templates/admin/partials/edit_subscription_form.php:227
+msgid "Card Input Field Language: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:180
+#: templates/admin/partials/create_donation_form.php:188
+#: templates/admin/partials/create_inline_card_capture_form.php:137
+#: templates/admin/partials/create_payment_form.php:258
+#: templates/admin/partials/create_subscription_form.php:197
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:117
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:117
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:148
+#: templates/admin/partials/edit_subscription_form.php:246
+msgid ""
+"Display the card info field in the selected language. Use 'Auto' to "
+"determine the language from the locale sent by the customer's browser."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:185
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:131
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:78
+#: templates/admin/partials/create_donation_form.php:193
+#: templates/admin/partials/create_payment_form.php:263
+#: templates/admin/partials/create_subscription_form.php:202
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:107
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:140
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:90
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:122
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:153
+#: templates/admin/partials/edit_subscription_form.php:251
+#: templates/admin/partials/settings_tab_appearance.php:20
+msgid "Format decimals with:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:190
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:136
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:83
+#: templates/admin/partials/create_donation_form.php:198
+#: templates/admin/partials/create_payment_form.php:268
+#: templates/admin/partials/create_subscription_form.php:207
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:112
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:145
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:95
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:127
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:158
+#: templates/admin/partials/edit_subscription_form.php:256
+#: templates/admin/partials/settings_tab_appearance.php:25
+msgid "$10.99 (dot)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:194
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:140
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:87
+#: templates/admin/partials/create_donation_form.php:202
+#: templates/admin/partials/create_payment_form.php:272
+#: templates/admin/partials/create_subscription_form.php:211
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:116
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:149
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:99
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:131
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:162
+#: templates/admin/partials/edit_subscription_form.php:260
+#: templates/admin/partials/settings_tab_appearance.php:29
+msgid "$10,99 (comma)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:200
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:146
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:93
+#: templates/admin/partials/create_donation_form.php:208
+#: templates/admin/partials/create_payment_form.php:278
+#: templates/admin/partials/create_subscription_form.php:217
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:122
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:155
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:105
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:137
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:168
+#: templates/admin/partials/edit_subscription_form.php:266
+#: templates/admin/partials/settings_tab_appearance.php:35
+msgid "Use currency symbol or code?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:205
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:151
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:98
+#: templates/admin/partials/create_donation_form.php:213
+#: templates/admin/partials/create_payment_form.php:283
+#: templates/admin/partials/create_subscription_form.php:222
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:127
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:160
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:110
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:142
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:173
+#: templates/admin/partials/edit_subscription_form.php:271
+#: templates/admin/partials/settings_tab_appearance.php:40
+msgid "$10.99 (symbol)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:209
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:155
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:102
+#: templates/admin/partials/create_donation_form.php:217
+#: templates/admin/partials/create_payment_form.php:287
+#: templates/admin/partials/create_subscription_form.php:226
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:131
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:164
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:114
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:146
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:177
+#: templates/admin/partials/edit_subscription_form.php:275
+#: templates/admin/partials/settings_tab_appearance.php:44
+msgid "USD 10.99 (code)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:215
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:161
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:108
+#: templates/admin/partials/create_donation_form.php:223
+#: templates/admin/partials/create_payment_form.php:293
+#: templates/admin/partials/create_subscription_form.php:232
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:137
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:170
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:120
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:152
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:183
+#: templates/admin/partials/edit_subscription_form.php:281
+#: templates/admin/partials/settings_tab_appearance.php:50
+msgid "Put currency identifier on:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:220
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:166
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:113
+#: templates/admin/partials/create_donation_form.php:228
+#: templates/admin/partials/create_payment_form.php:298
+#: templates/admin/partials/create_subscription_form.php:237
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:142
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:175
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:125
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:157
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:188
+#: templates/admin/partials/edit_subscription_form.php:286
+#: templates/admin/partials/settings_tab_appearance.php:55
+msgid "€10.99 (left)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:224
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:170
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:117
+#: templates/admin/partials/create_donation_form.php:232
+#: templates/admin/partials/create_payment_form.php:302
+#: templates/admin/partials/create_subscription_form.php:241
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:146
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:179
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:129
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:161
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:192
+#: templates/admin/partials/edit_subscription_form.php:290
+#: templates/admin/partials/settings_tab_appearance.php:59
+msgid "10.99€ (right)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:230
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:176
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:123
+#: templates/admin/partials/create_donation_form.php:238
+#: templates/admin/partials/create_payment_form.php:308
+#: templates/admin/partials/create_subscription_form.php:247
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:152
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:185
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:135
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:167
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:198
+#: templates/admin/partials/edit_subscription_form.php:296
+#: templates/admin/partials/settings_tab_appearance.php:65
+msgid "Insert space between amount and currency?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:235
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:181
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:128
+#: templates/admin/partials/create_donation_form.php:243
+#: templates/admin/partials/create_payment_form.php:313
+#: templates/admin/partials/create_subscription_form.php:252
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:157
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:190
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:140
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:172
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:203
+#: templates/admin/partials/edit_subscription_form.php:301
+#: templates/admin/partials/settings_tab_appearance.php:70
+msgid "$10.99 (no)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:239
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:185
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:132
+#: templates/admin/partials/create_donation_form.php:247
+#: templates/admin/partials/create_payment_form.php:317
+#: templates/admin/partials/create_subscription_form.php:256
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:161
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:194
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:144
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:176
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:207
+#: templates/admin/partials/edit_subscription_form.php:305
+#: templates/admin/partials/settings_tab_appearance.php:74
+msgid "USD 10.99 (yes)"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_donation_form.php:252
+#: templates/admin/partials/create_checkout_form.php:186
+#: templates/admin/partials/create_checkout_subscription_form.php:115
+#: templates/admin/partials/create_donation_form.php:260
+#: templates/admin/partials/create_inline_card_capture_form.php:149
+#: templates/admin/partials/create_payment_form.php:330
+#: templates/admin/partials/create_popup_card_capture_form.php:96
+#: templates/admin/partials/create_subscription_form.php:269
+msgid "Create Form"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:24
+#: templates/admin/partials/edit_checkout_form.php:31
+msgid "Checkout payment form"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:33
+#: templates/admin/partials/edit_checkout_form.php:40
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"popup_payment\"]."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:38
+#: templates/admin/partials/create_payment_form.php:38
+msgid "Payment Type: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:43
+#: templates/admin/partials/create_payment_form.php:43
+#: templates/admin/partials/edit_checkout_form.php:50
+#: templates/admin/partials/edit_payment_form_tab_payment.php:35
+msgid "Set Amount"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:47
+#: templates/admin/partials/create_payment_form.php:47
+#: templates/admin/partials/edit_checkout_form.php:54
+#: templates/admin/partials/edit_payment_form_tab_payment.php:38
+msgid "Select Amount from List"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:51
+#: templates/admin/partials/create_payment_form.php:51
+#: templates/admin/partials/edit_checkout_form.php:58
+#: templates/admin/partials/edit_payment_form_tab_payment.php:42
+msgid "Custom Amount"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:54
+#: templates/admin/partials/create_payment_form.php:54
+#: templates/admin/partials/edit_checkout_form.php:61
+#: templates/admin/partials/edit_payment_form_tab_payment.php:45
+msgid ""
+"Choose to set a specific amount or a list of amounts for this form, or "
+"allow customers to set custom amounts."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:59
+#: templates/admin/partials/create_payment_form.php:59
+#: templates/admin/partials/edit_checkout_form.php:66
+#: templates/admin/partials/edit_payment_form_tab_payment.php:50
+msgid "Charge Type: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:64
+#: templates/admin/partials/create_payment_form.php:64
+#: templates/admin/partials/edit_checkout_form.php:71
+#: templates/admin/partials/edit_payment_form_tab_payment.php:55
+msgid "Immediate"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:68
+#: templates/admin/partials/create_payment_form.php:68
+#: templates/admin/partials/edit_checkout_form.php:75
+#: templates/admin/partials/edit_payment_form_tab_payment.php:59
+msgid "Authorize and Capture"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:71
+#: templates/admin/partials/create_payment_form.php:71
+#: templates/admin/partials/edit_checkout_form.php:78
+#: templates/admin/partials/edit_payment_form_tab_payment.php:62
+msgid ""
+"Choose whether you want to charge immediately, or authorize the payment "
+"now, and capture it later."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:103
+msgid "Payment Amount: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:108
+#: templates/admin/partials/create_payment_form.php:108
+#: templates/admin/partials/edit_checkout_form.php:115
+#: templates/admin/partials/edit_payment_form_tab_payment.php:99
+msgid ""
+"The amount this form will charge your customer, in the smallest unit for "
+"the currency. i.e. for $10.00 enter 1000, for ¥10 enter 10."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:113
+#: templates/admin/partials/create_payment_form.php:113
+#: templates/admin/partials/edit_checkout_form.php:120
+#: templates/admin/partials/edit_payment_form_tab_payment.php:104
+msgid "Payment Amount Options:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:117
+#: templates/admin/partials/create_payment_form.php:117
+#: templates/admin/partials/edit_checkout_form.php:123
+#: templates/admin/partials/edit_payment_form_tab_payment.php:107
+msgid "Description"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:122
+#: templates/admin/partials/edit_checkout_form.php:149
+msgid ""
+"The amount in smallest common currency unit. i.e. for $10.00 enter 1000, "
+"for ¥10 enter 10. The description will be displayed in the dropdown for the "
+"amount. Use the {amount} placeholder to include the amount value. You can "
+"use drag'n'drop to reorder the payment amounts."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:130
+#: templates/admin/partials/create_inline_card_capture_form.php:39
+#: templates/admin/partials/create_payment_form.php:130
+#: templates/admin/partials/create_popup_card_capture_form.php:39
+#: templates/admin/partials/edit_checkout_form.php:157
+#: templates/admin/partials/edit_inline_card_capture_form_tab_payment.php:31
+#: templates/admin/partials/edit_payment_form_tab_payment.php:144
+#: templates/admin/partials/edit_popup_card_capture_form.php:46
+msgid "Description: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:150
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:12
+#: templates/admin/partials/create_popup_card_capture_form.php:60
+#: templates/admin/partials/edit_checkout_form.php:177
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:12
+#: templates/admin/partials/edit_popup_card_capture_form.php:67
+msgid "Send Email Receipt?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:162
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:23
+#: templates/admin/partials/create_popup_card_capture_form.php:72
+#: templates/admin/partials/edit_checkout_form.php:189
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:24
+#: templates/admin/partials/edit_popup_card_capture_form.php:79
+msgid "Send an email receipt on successful payment?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:167
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:28
+#: templates/admin/partials/create_popup_card_capture_form.php:77
+#: templates/admin/partials/edit_checkout_form.php:194
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:29
+#: templates/admin/partials/edit_popup_card_capture_form.php:84
+msgid "Redirect On Success?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form.php:179
+#: templates/admin/partials/create_payment_form_tab_actions_after_payment.php:39
+#: templates/admin/partials/create_popup_card_capture_form.php:89
+#: templates/admin/partials/edit_checkout_form.php:206
+#: templates/admin/partials/edit_payment_form_tab_actions_after_payment.php:41
+#: templates/admin/partials/edit_popup_card_capture_form.php:96
+msgid ""
+"When payment is successful you can choose to redirect to another page or "
+"post."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:23
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:31
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:31
+msgid ""
+"The name of the product or service sold using this form. When using "
+"\"Select Amount from List\", the selected amount's description will replace "
+"this value."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:33
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:41
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:41
+msgid ""
+"A short description (one line) about the product or service sold using this "
+"form. When using \"Select Amount from List\", you may provide your "
+"Company's name here."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:38
+msgid "Product Image"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:60
+#: templates/admin/partials/create_payment_form.php:168
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:66
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:50
+msgid "Include Amount on Button?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:72
+#: templates/admin/partials/create_payment_form.php:180
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:78
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:62
+msgid "For set amount forms, choose to show/hide the amount on the payment button."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:78
+#: templates/admin/partials/create_payment_form.php:144
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:84
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:26
+msgid "Amount Selector Style:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:82
+#: templates/admin/partials/create_payment_form.php:148
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:88
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:30
+msgid "Product selector dropdown"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:83
+#: templates/admin/partials/create_payment_form.php:149
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:89
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:31
+msgid "List of products"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:84
+#: templates/admin/partials/create_payment_form.php:150
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:90
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:32
+msgid "Donation button group"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_form_tab_appearance.php:87
+#: templates/admin/partials/create_payment_form.php:153
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:93
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:35
+msgid "Choose how you'd like the amount(s) of the form to look."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:14
+#: templates/admin/partials/create_subscription_form.php:14
+msgid ""
+"You must have at least one subscription plan created before creating a "
+"subscription form."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:18
+#: templates/admin/partials/create_subscription_form.php:18
+#: templates/admin/partials/edit_checkout_subscription_form.php:19
+#: templates/admin/partials/edit_subscription_form.php:18
+msgid "Finance"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:32
+#: templates/admin/partials/edit_checkout_subscription_form.php:34
+msgid "Checkout subscription form"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:40
+#: templates/admin/partials/edit_checkout_subscription_form.php:43
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"popup_subscription\"]."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:45
+#: templates/admin/partials/create_subscription_form.php:61
+#: templates/admin/partials/edit_checkout_subscription_form.php:48
+#: templates/admin/partials/edit_subscription_form.php:64
+msgid "Allow Multiple Subscriptions?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:56
+#: templates/admin/partials/edit_checkout_subscription_form.php:59
+#: templates/admin/partials/edit_subscription_form.php:75
+msgid "Allow customers to choose how many subscriptions they want to subscribe."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:61
+#: templates/admin/partials/create_subscription_form.php:77
+#: templates/admin/partials/edit_checkout_subscription_form.php:64
+#: templates/admin/partials/edit_subscription_form.php:80
+msgid "Maximum Number of Subscriptions:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:65
+#: templates/admin/partials/create_subscription_form.php:81
+#: templates/admin/partials/edit_checkout_subscription_form.php:68
+#: templates/admin/partials/edit_subscription_form.php:84
+msgid "Enter 0 (zero) if customers can subscribe to any number of subscriptions."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:70
+#: templates/admin/partials/create_subscription_form.php:123
+#: templates/admin/partials/edit_checkout_subscription_form.php:73
+#: templates/admin/partials/edit_subscription_form.php:127
+msgid "Plans:"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:82
+#: templates/admin/partials/create_subscription_form.php:135
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:73
+#: templates/admin/partials/edit_checkout_form.php:132
+#: templates/admin/partials/edit_checkout_subscription_form.php:96
+#: templates/admin/partials/edit_checkout_subscription_form.php:112
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:73
+#: templates/admin/partials/edit_payment_form_tab_payment.php:119
+#: templates/admin/partials/edit_subscription_form.php:150
+#: templates/admin/partials/edit_subscription_form.php:166
+msgid "You can reorder this list by using drag'n'drop."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:93
+#: templates/admin/partials/create_subscription_form.php:146
+#: templates/admin/partials/edit_checkout_subscription_form.php:124
+#: templates/admin/partials/edit_subscription_form.php:178
+msgid ""
+"Which subscription plans can be chosen on this form. The list can be "
+"reordered by using drag'n'drop."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form.php:104
+msgid "Subscribe"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:17
+#: templates/admin/partials/create_subscription_form.php:159
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:26
+#: templates/admin/partials/edit_subscription_form.php:204
+msgid "Plan Selector Style: "
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:21
+#: templates/admin/partials/create_subscription_form.php:163
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:30
+#: templates/admin/partials/edit_subscription_form.php:208
+msgid "Dropdown"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:22
+#: templates/admin/partials/create_subscription_form.php:164
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:31
+#: templates/admin/partials/edit_subscription_form.php:209
+msgid "List"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:25
+#: templates/admin/partials/create_subscription_form.php:167
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:34
+#: templates/admin/partials/edit_subscription_form.php:212
+msgid "Style of the plan selector component."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:40
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:49
+msgid "Simple Button Layout?"
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_appearance.php:52
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:61
+msgid ""
+"Display only a 'Subscribe' button. It hides the plan selector, the custom "
+"input fields, and the coupon field."
+msgstr ""
+
+#: templates/admin/partials/create_checkout_subscription_form_tab_finance.php:23
+#: templates/admin/partials/edit_checkout_subscription_form_tab_finance.php:24
+msgid "Should this form also ask for the customers billing address?"
+msgstr ""
+
+#: templates/admin/partials/create_donation_form.php:24
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:15
+msgid "Inline donation form"
+msgstr ""
+
+#: templates/admin/partials/create_donation_form.php:105
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:26
+msgid "Donation Button Text:"
+msgstr ""
+
+#: templates/admin/partials/create_donation_form.php:132
+#: templates/admin/partials/create_inline_card_capture_form.php:81
+#: templates/admin/partials/create_payment_form.php:202
+#: templates/admin/partials/create_subscription_form_tab_finance.php:58
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:53
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:53
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:84
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:62
+msgid "Default Billing Country:"
+msgstr ""
+
+#: templates/admin/partials/create_donation_form.php:150
+#: templates/admin/partials/create_inline_card_capture_form.php:99
+#: templates/admin/partials/create_payment_form.php:220
+msgid "It's the selected country when the form is rendered for the first time."
+msgstr ""
+
+#: templates/admin/partials/create_donation_form.php:155
+#: templates/admin/partials/create_inline_card_capture_form.php:104
+#: templates/admin/partials/create_payment_form.php:225
+#: templates/admin/partials/create_subscription_form_tab_finance.php:81
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:81
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:81
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:112
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:90
+msgid "Collect Shipping Address?"
+msgstr ""
+
+#: templates/admin/partials/create_donation_form.php:167
+#: templates/admin/partials/create_inline_card_capture_form.php:116
+#: templates/admin/partials/create_payment_form.php:237
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:93
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:93
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:124
+msgid "Should this payment form also ask for the customers' shipping address?"
+msgstr ""
+
+#: templates/admin/partials/create_inline_card_capture_form.php:24
+#: templates/admin/partials/edit_inline_card_capture_form_tab_payment.php:15
+msgid "Inline save card form"
+msgstr ""
+
+#: templates/admin/partials/create_inline_card_capture_form.php:33
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_save_card\"]"
+msgstr ""
+
+#: templates/admin/partials/create_inline_card_capture_form.php:44
+#: templates/admin/partials/create_popup_card_capture_form.php:44
+#: templates/admin/partials/edit_inline_card_capture_form_tab_payment.php:36
+#: templates/admin/partials/edit_popup_card_capture_form.php:51
+msgid ""
+"It appears in the customer's \"Details\" section on the Stripe dashboard. "
+"You can use placeholders, see the <a target=\"_blank\" href=\"%s\">Help "
+"page</a> for more options."
+msgstr ""
+
+#: templates/admin/partials/create_inline_card_capture_form.php:54
+#: templates/admin/partials/create_payment_form.php:158
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:26
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:40
+msgid "Payment Button Text:"
+msgstr ""
+
+#: templates/admin/partials/create_inline_card_capture_form.php:59
+#: templates/admin/partials/create_payment_form.php:163
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:31
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:45
+msgid "The text on the payment button."
+msgstr ""
+
+#: templates/admin/partials/create_payment_form.php:24
+#: templates/admin/partials/edit_payment_form_tab_payment.php:15
+msgid "Inline payment form"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form.php:33
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_payment\"]"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form.php:122
+#: templates/admin/partials/edit_payment_form_tab_payment.php:136
+msgid ""
+"The amount in the smallest unit for the currency. i.e. for $10.00 enter "
+"1000, for ¥10 enter 10. The description will be displayed in the dropdown "
+"for the amount. Use the {amount} placeholder to include the amount value. "
+"You can use drag'n'drop to reorder the payment amounts."
+msgstr ""
+
+#: templates/admin/partials/create_payment_form.php:161
+msgid "Make Payment"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:15
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:17
+msgid "Include Terms of Use Checkbox?"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:26
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:28
+msgid "You can ask the customer to accept the Terms of Use."
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:33
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:35
+msgid "Checkbox Label: "
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:37
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:39
+msgid "The label which is displayed next to the checkbox."
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:42
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:44
+msgid "Not Checked Error Message: "
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:46
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:48
+msgid ""
+"The error message to display if the checkbox is not checked when the form "
+"is submitted."
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:53
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:55
+msgid "Include Custom Input Fields?"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:64
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:67
+msgid ""
+"You can ask for extra information from the customer to be included in the "
+"payment details."
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:71
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:74
+msgid "Make Custom Input Fields Required?"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:86
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:89
+msgid "Number of inputs:"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:115
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:122
+msgid "Custom Input Label %d:"
+msgstr ""
+
+#: templates/admin/partials/create_payment_form_tab_custom_fields.php:120
+#: templates/admin/partials/edit_payment_form_tab_custom_fields.php:127
+msgid "The text for the label next to the custom input field."
+msgstr ""
+
+#: templates/admin/partials/create_popup_card_capture_form.php:24
+#: templates/admin/partials/edit_popup_card_capture_form.php:31
+msgid "Checkout save card form"
+msgstr ""
+
+#: templates/admin/partials/create_popup_card_capture_form.php:33
+#: templates/admin/partials/edit_popup_card_capture_form.php:40
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"popup_save_card\"]."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:32
+#: templates/admin/partials/edit_subscription_form.php:33
+msgid "Inline subscription form"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:40
+#: templates/admin/partials/edit_subscription_form.php:42
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_subscription\"]."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:45
+#: templates/admin/partials/edit_subscription_form.php:47
+msgid "Include Coupon Input Field?"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:56
+#: templates/admin/partials/edit_subscription_form.php:59
+msgid ""
+"You can allow customers to input coupon codes for discounts. Must create "
+"the coupon in your <a href=\"%s\" target=\"_blank\">Stripe account "
+"dashboard</a>."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:72
+msgid "Allow customers to choose how many plans they want to subscribe."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:86
+#: templates/admin/partials/edit_subscription_form.php:89
+msgid "Billing Cycle Anchor Day:"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:91
+#: templates/admin/partials/edit_subscription_form.php:94
+msgid "When customer subscribed"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:95
+#: templates/admin/partials/edit_subscription_form.php:98
+msgid "On this day of month:"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:102
+#: templates/admin/partials/edit_subscription_form.php:105
+msgid "Anchor day of the month for monthly subscription plans."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:107
+#: templates/admin/partials/edit_subscription_form.php:110
+msgid "Prorate until Anchor Day?"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:118
+#: templates/admin/partials/edit_subscription_form.php:121
+msgid "Should the plugin prorate the charges resulting from the billing anchor day?"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:172
+#: templates/admin/partials/edit_subscription_form.php:217
+msgid "Subscribe Button Text:"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form.php:176
+#: templates/admin/partials/edit_subscription_form.php:222
+msgid "The text on the subscribe button."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:12
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:12
+msgid "VAT Rate:"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:28
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:31
+msgid ""
+"Should this form add VAT to the subscription plan amount and to the setup "
+"fee?"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:33
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:36
+msgid "VAT Percent:"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:37
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:40
+msgid "VAT Percent with up to 4 decimal places."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:53
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:57
+msgid "Should this form also ask for the customers' billing address?"
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:76
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:76
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:76
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:107
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:85
+msgid ""
+"It's the selected country when the form is rendered for the first time, and "
+"is used also as the supplier's country for custom VAT calculation."
+msgstr ""
+
+#: templates/admin/partials/create_subscription_form_tab_finance.php:92
+#: templates/admin/partials/edit_subscription_form_tab_finance.php:102
+msgid "Should this form also ask for the customers' shipping address?"
+msgstr ""
+
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:14
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:14
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:14
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:14
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:14
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:14
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:14
+#: templates/admin/partials/edit_subscription_form.php:191
+msgid "Form ID for Custom CSS:"
+msgstr ""
+
+#: templates/admin/partials/edit_checkout_card_capture_form_tab_appearance.php:21
+#: templates/admin/partials/edit_checkout_donation_form_tab_appearance.php:21
+#: templates/admin/partials/edit_checkout_form_tab_appearance.php:21
+#: templates/admin/partials/edit_checkout_subscription_form_tab_appearance.php:21
+#: templates/admin/partials/edit_inline_card_capture_form_tab_appearance.php:21
+#: templates/admin/partials/edit_inline_donation_form_tab_appearance.php:21
+#: templates/admin/partials/edit_payment_form_tab_appearance.php:21
+#: templates/admin/partials/edit_subscription_form.php:199
+msgid "Use this CSS selector to add custom styles to this form."
+msgstr ""
+
+#: templates/admin/partials/edit_checkout_donation_form.php:40
+#: templates/admin/partials/edit_checkout_form.php:213
+#: templates/admin/partials/edit_checkout_subscription_form.php:143
+#: templates/admin/partials/edit_inline_card_capture_form.php:40
+#: templates/admin/partials/edit_inline_donation_form.php:40
+#: templates/admin/partials/edit_payment_form.php:40
+#: templates/admin/partials/edit_popup_card_capture_form.php:103
+#: templates/admin/partials/edit_subscription_form.php:318
+#: templates/admin/partials/settings_tab_appearance.php:107
+#: templates/admin/partials/settings_tab_email-receipts.php:99
+#: templates/admin/partials/settings_tab_security.php:138
+#: templates/admin/partials/settings_tab_stripe.php:99
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:25
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"checkout_donation\"]."
+msgstr ""
+
+#: templates/admin/partials/edit_checkout_donation_form_tab_payment.php:79
+msgid ""
+"The amount in the smallest unit for the currency. i.e. for $10.00 enter "
+"1000, for ¥10 enter 10. You can use drag'n'drop to reorder the donation "
+"amounts."
+msgstr ""
+
+#: templates/admin/partials/edit_checkout_form.php:45
+#: templates/admin/partials/edit_payment_form_tab_payment.php:30
+msgid "Payment Type:"
+msgstr ""
+
+#: templates/admin/partials/edit_inline_card_capture_form_tab_payment.php:25
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_save_card\"]."
+msgstr ""
+
+#: templates/admin/partials/edit_inline_donation_form_tab_payment.php:25
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_donation\"]."
+msgstr ""
+
+#: templates/admin/partials/edit_payment_form_tab_payment.php:25
+msgid ""
+"This name will be used to identify this form in the shortcode i.e. "
+"[fullstripe_form name=\"formName\" type=\"inline_payment\"]."
+msgstr ""
+
+#: templates/admin/partials/redirect_to_for_create.php:11
+#: templates/admin/partials/redirect_to_for_edit.php:11
+msgid "Redirect to:"
+msgstr ""
+
+#: templates/admin/partials/redirect_to_for_create.php:16
+#: templates/admin/partials/redirect_to_for_edit.php:16
+msgid "Page or Post"
+msgstr ""
+
+#: templates/admin/partials/redirect_to_for_create.php:20
+#: templates/admin/partials/redirect_to_for_edit.php:20
+msgid "URL entered manually"
+msgstr ""
+
+#: templates/admin/partials/redirect_to_for_create.php:40
+#: templates/admin/partials/redirect_to_for_edit.php:44
+msgid "Allow placeholder tokens on Thank You pages?"
+msgstr ""
+
+#: templates/admin/partials/redirect_to_for_create.php:45
+#: templates/admin/partials/redirect_to_for_edit.php:49
+msgid "Enter URL"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_appearance.php:80
+msgid "Custom Form CSS: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_appearance.php:85
+msgid ""
+"Add extra styling to the form. NOTE: if you don't know what this is do not "
+"change it."
+msgstr ""
+
+#: templates/admin/partials/settings_tab_appearance.php:90
+msgid "Include Default Styles: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_appearance.php:95
+msgid "Include"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_appearance.php:99
+msgid "Exclude"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_appearance.php:102
+msgid ""
+"Exclude styles if the payment forms do not appear properly. This can "
+"indicate a conflict with your theme."
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:22
+msgid "Receipt Email Type: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:27
+msgid "Plugin"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:34
+msgid ""
+"Choose the type of payment receipt emails. Plugin emails are defined below "
+"and Stripe emails can be setup in your Stripe Dashboard."
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:39
+msgid "Plugin Email Templates: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:56
+msgid "E-mail Subject"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:58
+msgid "E-mail body (HTML)"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:60
+msgid ""
+"%CUSTOMERNAME% and %AMOUNT% are replaced with the name of the customer and "
+"payment amount, respectively."
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:61
+msgid "See the <a target=\"_blank\" href=\"%s\">Help page</a> for more options."
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:69
+msgid "Email Sender Address:"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:74
+msgid ""
+"The sender address of email receipts. If you leave it empty then the email "
+"address of the blog admin will be used."
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:79
+msgid "Send Copy of Emails?: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:88
+msgid "Yes, to the Website Admin"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:92
+msgid "Yes, to the Email Sender Address"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_email-receipts.php:94
+msgid "Send copies of payment/subscription receipts to the website admin as well?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_logs.php:19
+msgid "Module: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_logs.php:38
+msgid "Level: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:19
+msgid "Google reCaptcha site key here"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:20
+msgid "Google reCaptcha secret key here"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:32
+msgid "Fill in email address for logged in users?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:47
+msgid "Secure inline forms with Google reCAPTCHA?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:62
+msgid "Secure checkout forms with Google reCAPTCHA?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:77
+msgid "Secure subscription update with Google reCAPTCHA?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:92
+msgid "Google reCAPTCHA site key: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:100
+msgid "Google reCAPTCHA secret key: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:108
+msgid "Show invoices to subscribers?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_security.php:123
+msgid "Let subscribers cancel subscriptions?"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:22
+msgid "Test secret key here"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:23
+msgid "Test publishable key here"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:24
+msgid "Live secret key here"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:25
+msgid "Live publishable key here"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:30
+msgid ""
+"The Stripe API keys are required for payments to work. You can find your "
+"keys on your <a href=\"https://dashboard.stripe.com/account/apikeys\" "
+"target=\"_blank\">Stripe Dashboard -> API</a> page"
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:39
+msgid "API mode: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:54
+msgid "Stripe Test Publishable Key: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:62
+msgid "Stripe Test Secret Key: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:70
+msgid "Stripe Live Publishable Key: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:78
+msgid "Stripe Live Secret Key: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:89
+msgid "Stripe Webhook URL: "
+msgstr ""
+
+#: templates/admin/partials/settings_tab_stripe.php:93
+msgid ""
+"This URL must be set in Stripe as a webhook endpoint. See the <a "
+"target=\"_blank\" href=\"%s\">\"Setup\" chapter</a> of the \"Help\" page "
+"for more information."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Full Stripe"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://paymentsplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Complete Stripe payments integration for Wordpress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mammothology"
+msgstr ""

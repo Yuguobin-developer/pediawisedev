@@ -1,0 +1,18 @@
+.popup-block {
+    position: relative;
+    background: $white-color;
+    padding: 1.875rem 2.5rem;
+    text-align: left;
+    max-width: 50rem;
+    margin: 2.5rem auto;
+
+    .popup-modal-dismiss {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .wpfs-form-actions {
+        width: 10.5rem;
+    }
+}

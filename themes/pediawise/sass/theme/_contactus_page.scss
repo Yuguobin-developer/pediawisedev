@@ -1,0 +1,119 @@
+/**
+ * Contact Us Page Style
+ */
+
+.contact-us-page {
+    .section {
+        padding-left: 6.625rem;
+        padding-right: 6.625rem;
+
+        @media (max-width: 991px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .hero-section {
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 12.25rem;
+        padding-bottom: 16.125rem;
+
+        @media (max-width: 991px) {
+            background-image: none !important;
+        }
+
+        h1 {
+            color: $primary;
+            font-family: $secondary-font;
+            font-size: 5rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 3.75rem;
+        }
+
+        p {
+            font-family: $primary-font;
+            font-size: 2.25rem;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 0;
+        }
+    }
+
+    .contact-us-section {
+        padding-top: 5.625rem;
+        padding-bottom: 5.625rem;
+
+        .title {
+            h2 {
+                color: $primary;
+                font-family: $secondary-font;
+                font-size: 3.625rem;
+                font-weight: 700;
+                line-height: 1;
+                margin-bottom: 4.375rem;
+            }
+        }
+
+        .contact-info {            
+            img {
+                margin-bottom: 3rem;
+            }
+
+            h3.sub-title {
+                color: $dark-color;
+                font-family: $primary-font;
+                font-size: 2.25rem;
+                line-height: auto;
+                margin-bottom: 1.25rem;
+            }
+
+            .description {
+                p {
+                    color: $dark-color;
+                    font-family: $primary-font;
+                    font-size: 2rem;
+                }
+
+                a {
+                    color: $primary;
+                    font-family: $primary-font;
+                    font-size: 2rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .social-section {
+        padding-top: 3.125rem;
+        padding-bottom: 11.875rem;
+
+        .title {
+            h2 {
+                color: $primary;
+                font-family: $secondary-font;
+                font-size: 3.625rem;
+                font-weight: 700;
+                line-height: 1;
+                margin-bottom: 3.125rem;
+            }
+        }
+
+        .description {
+            p {
+                font-family: $primary-font;
+                font-size: 2.25rem;
+                font-weight: 600;
+                line-height: 1;
+                margin-bottom: 5rem;
+            }            
+        }
+
+        .social {
+            display: inline-block;
+        }
+    }
+}

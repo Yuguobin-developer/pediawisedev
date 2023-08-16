@@ -1,0 +1,1116 @@
+# Copyright (C) 2020 Mammothology
+# This file is distributed under the same license as the WP Full Stripe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Full Stripe 5.5.0\n"
+"Report-Msgid-Bugs-To: https://paymentsplugin.com/support/\n"
+"POT-Creation-Date: 2020-10-17 18:00:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:79
+msgid "Recurring donation (%s)"
+msgstr "Don récurrent (%s)"
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:294
+#: includes/wp-full-stripe-checkout-charge-handler.php:342
+#: includes/wp-full-stripe-checkout-charge-handler.php:546
+#: includes/wp-full-stripe-checkout-charge-handler.php:709
+#: includes/wp-full-stripe-customer.php:490
+#: includes/wp-full-stripe-customer.php:887
+#: includes/wp-full-stripe-customer.php:1066
+#: includes/wp-full-stripe-customer.php:1503
+#: includes/wp-full-stripe-customer.php:1544
+#: includes/wp-full-stripe-customer.php:1569
+#. translators: Banner title of successful transaction
+msgid "Success"
+msgstr "Succès"
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:297
+#. translators: Banner message of saving card successfully
+msgid "Card saved successfully!"
+msgstr "La carte bancaire a bien été enregistrée."
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:302
+#: includes/wp-full-stripe-customer.php:498
+#: includes/wp-full-stripe-customer.php:895
+#: includes/wp-full-stripe-customer.php:902
+#: includes/wp-full-stripe-customer.php:1074
+#: includes/wp-full-stripe-customer.php:1511
+#: includes/wp-full-stripe-customer.php:1552
+#. translators: Banner title of failed transaction
+msgid "Failed"
+msgstr "Échec"
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:345
+#: includes/wp-full-stripe-checkout-charge-handler.php:712
+#: includes/wp-full-stripe-customer.php:1069
+#: includes/wp-full-stripe-customer.php:1506
+#: includes/wp-full-stripe-customer.php:1547
+#: includes/wp-full-stripe-customer.php:1572
+#. translators: Banner message of successful payment
+msgid "Payment Successful!"
+msgstr "Le paiement a bien été effectué."
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:548
+#: includes/wp-full-stripe-customer.php:889
+#. translators: Banner message of successful payment
+msgid "Donation Successful!"
+msgstr "Le don a bien été effectué."
+
+#: includes/wp-full-stripe-checkout-charge-handler.php:680
+#: includes/wp-full-stripe-customer.php:1205
+#. translators: Default payment description for initial subscription payments.
+#. p1: Cardholder's name
+msgid "Subscriber: %s"
+msgstr "Abonné : %s"
+
+#: includes/wp-full-stripe-checkout-submission-service.php:200
+#: includes/wp-full-stripe-payments.php:580
+#. translators: It's a line item for the initial payment of a subscription
+msgid "One-time setup fee (plan: %s)"
+msgstr "Frais d’activation ponctuels (formule : %s)"
+
+#: includes/wp-full-stripe-checkout-submission-service.php:926
+#. translators: Banner title of cancelled transaction
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: includes/wp-full-stripe-checkout-submission-service.php:929
+#. translators: Banner message of cancelled transaction
+msgid "The customer has cancelled the payment."
+msgstr "Le client a annulé le paiement."
+
+#: includes/wp-full-stripe-customer.php:238
+#: includes/wp-full-stripe-customer.php:291
+#: includes/wp-full-stripe-customer.php:338
+#: includes/wp-full-stripe-customer.php:1167
+#: includes/wp-full-stripe-customer.php:1613
+#: includes/wp-full-stripe-customer.php:1660
+#: includes/wp-full-stripe-customer.php:1726
+#: includes/wp-full-stripe-main.php:1302
+#: templates/forms/fullstripe_form.php:196
+#. translators: Banner title of internal error
+msgid "Internal Error"
+msgstr "Erreur interne"
+
+#: includes/wp-full-stripe-customer.php:274
+#: includes/wp-full-stripe-customer.php:321
+#: includes/wp-full-stripe-customer.php:1150
+#: includes/wp-full-stripe-customer.php:1596
+#: includes/wp-full-stripe-customer.php:1643
+#: includes/wp-full-stripe-customer.php:1709
+#. translators: Banner title of error returned by Stripe
+msgid "Stripe Error"
+msgstr "Erreur de Stripe"
+
+#: includes/wp-full-stripe-customer.php:362
+#. translators: Banner title of a hidden field's validation error
+msgid "Field validation error"
+msgstr "Erreur de validation du champ"
+
+#: includes/wp-full-stripe-customer.php:368
+#. translators: Banner title of a validation error which is not field specific
+msgid "Form error"
+msgstr "Erreur de formulaire"
+
+#: includes/wp-full-stripe-customer.php:417
+#: includes/wp-full-stripe-customer.php:869
+#: includes/wp-full-stripe-customer.php:1024
+#: includes/wp-full-stripe-customer.php:1487
+#: includes/wp-full-stripe-customer.php:1529
+#. translators: Banner title of pending transaction requiring a second factor
+#. authentication (SCA/PSD2)
+msgid "Action required"
+msgstr "Action requise"
+
+#: includes/wp-full-stripe-customer.php:420
+#: includes/wp-full-stripe-my-account-service.php:1338
+#. translators: Banner message of a pending card saving transaction requiring a
+#. second factor authentication (SCA/PSD2)
+msgid "Saving this card requires additional action before completion!"
+msgstr "L’enregistrement de cette carte bancaire nécessite une action supplémentaire pour être finalisé."
+
+#: includes/wp-full-stripe-customer.php:493
+#. translators: Banner message of saving card successfully
+msgid "Saving Card Successful!"
+msgstr "La carte a bien été enregistrée."
+
+#: includes/wp-full-stripe-customer.php:871
+#. translators: Banner message of a one-time payment requiring a second factor
+#. authentication (SCA/PSD2)
+msgid "The donation needs additional action before completion!"
+msgstr "Le don nécessite une action supplémentaire pour être finalisé."
+
+#: includes/wp-full-stripe-customer.php:1027
+#: includes/wp-full-stripe-customer.php:1490
+#: includes/wp-full-stripe-customer.php:1532
+#. translators: Banner message of a one-time payment requiring a second factor
+#. authentication (SCA/PSD2)
+msgid "The payment needs additional action before completion!"
+msgstr "Le paiement nécessite une action supplémentaire pour être finalisé."
+
+#: includes/wp-full-stripe-customer.php:1747
+#: includes/wp-full-stripe-customer.php:1760
+#. translators: Banner title for messages related to applying a coupon
+msgid "Coupon redemption"
+msgstr "Utilisation d’un bon de réduction"
+
+#: includes/wp-full-stripe-customer.php:1750
+#. translators: Banner message of expired coupon
+msgid "This coupon has expired."
+msgstr "Ce bon de réduction a expiré."
+
+#: includes/wp-full-stripe-customer.php:1763
+#. translators: Banner message of successfully applying a coupon
+msgid "The coupon has been applied successfully."
+msgstr "Le bon de réduction a bien été appliqué."
+
+#: includes/wp-full-stripe-customer.php:1778
+#. translators: Field error of non-existing or otherwise non-valid coupon
+msgid "Entered coupon code is not valid anymore. Try with another one."
+msgstr "Le code de bon de réduction saisi n’est plus valide. Essayez avec un autre code."
+
+#: includes/wp-full-stripe-form-models.php:289
+#. translators: Placeholder product name for newly created one-time payment
+#. forms
+msgid "My Product"
+msgstr "Mon produit"
+
+#: includes/wp-full-stripe-form-models.php:555
+#. translators: Default payment button text on one-time payment forms
+msgid "Pay"
+msgstr "Payer"
+
+#: includes/wp-full-stripe-form-models.php:1021
+#. translators: Default payment button text on subscription forms
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#: includes/wp-full-stripe-form-models.php:1135
+#. translators: Placeholder product name for newly created checkout donation
+#. forms
+msgid "My Donation"
+msgstr "Mon don"
+
+#: includes/wp-full-stripe-form-models.php:2388
+msgid "Donation"
+msgstr "Don"
+
+#: includes/wp-full-stripe-localization.php:29
+msgid "year"
+msgid_plural "%d years"
+msgstr[0] "année"
+msgstr[1] "%d ans"
+
+#: includes/wp-full-stripe-localization.php:31
+msgid "month"
+msgid_plural "%d months"
+msgstr[0] "mois"
+msgstr[1] "%d mois"
+
+#: includes/wp-full-stripe-localization.php:33
+msgid "week"
+msgid_plural "%d weeks"
+msgstr[0] "semaine"
+msgstr[1] "%d semaines"
+
+#: includes/wp-full-stripe-localization.php:35
+msgid "day"
+msgid_plural "%d days"
+msgstr[0] "jour"
+msgstr[1] "%d jours"
+
+#: includes/wp-full-stripe-localization.php:56
+#. translators: Recurring pricing descriptor. p1: formatted recurring amount
+#. with currency symbol p2: interval count
+msgid "%1$s / day"
+msgid_plural "%1$s / %2$d days"
+msgstr[0] "%1$s/jour"
+msgstr[1] "%1$s tous les %2$d jours"
+
+#: includes/wp-full-stripe-localization.php:68
+#. translators: Recurring pricing descriptor. p1: formatted recurring amount
+#. with currency symbol p2: interval count
+msgid "%1$s / week"
+msgid_plural "%1$s / %2$d weeks"
+msgstr[0] "%1$s/semaine"
+msgstr[1] "%1$s toutes les %2$d semaines"
+
+#: includes/wp-full-stripe-localization.php:80
+#. translators: Recurring pricing descriptor. p1: formatted recurring amount
+#. with currency symbol p2: interval count
+msgid "%1$s / month"
+msgid_plural "%1$s / %2$d months"
+msgstr[0] "%1$s/mois"
+msgstr[1] "%1$s tous les %2$d mois"
+
+#: includes/wp-full-stripe-localization.php:92
+#. translators: Recurring pricing descriptor. p1: formatted recurring amount
+#. with currency symbol p2: interval count
+msgid "%1$s / year"
+msgid_plural "%1$s / %2$d years"
+msgstr[0] "%1$s/an"
+msgstr[1] "%1$s tous les %2$d ans"
+
+#: includes/wp-full-stripe-main.php:972
+#. translators: Link label displayed on the Plugins page in WP admin
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/wp-full-stripe-main.php:1299
+#. translators: Banner message of internal error when no error message is
+#. returned by the application
+msgid "An internal error occurred."
+msgstr "Une erreur interne est survenue."
+
+#: includes/wp-full-stripe-main.php:1307 includes/wp-full-stripe-main.php:2815
+#: includes/wp-full-stripe-main.php:2822
+#: includes/wp-full-stripe-validators.php:279
+#: includes/wp-full-stripe-validators.php:291
+#. translators: Error message for required fields when empty. p1: custom input
+#. field label
+msgid "Please enter a value for '%s'"
+msgstr "Entrez une valeur pour « %s »"
+
+#: includes/wp-full-stripe-main.php:1310
+#. translators: Field validation error message when payment amount is empty or
+#. invalid
+msgid "Payment amount is invalid"
+msgstr "Le montant du paiement est invalide"
+
+#: includes/wp-full-stripe-main.php:1313
+#. translators: Banner message when the payment amount cannot be determined
+#. (the form has been tampered with)
+msgid "Cannot determine payment amount"
+msgstr "Le montant du paiement ne peut être déterminé"
+
+#: includes/wp-full-stripe-main.php:1316
+#. translators: Banner title when the payment amount cannot be determined (the
+#. form has been tampered with)
+msgid "Invalid payment amount"
+msgstr "Montant du paiement invalide"
+
+#: includes/wp-full-stripe-main.php:1336
+msgid "Subscription will be charged every day."
+msgstr "Le montant de l’abonnement sera débité tous les jours."
+
+#: includes/wp-full-stripe-main.php:1337
+msgid "Subscription will be charged every week."
+msgstr "Le montant de l’abonnement sera débité toutes les semaines."
+
+#: includes/wp-full-stripe-main.php:1338
+msgid "Subscription will be charged every month."
+msgstr "Le montant de l’abonnement sera débité tous les mois."
+
+#: includes/wp-full-stripe-main.php:1339
+msgid "Subscription will be charged every year."
+msgstr "Le montant de l’abonnement sera débité tous les ans."
+
+#: includes/wp-full-stripe-main.php:1340
+msgid "Subscription will be charged every %d days."
+msgstr "Le montant de l’abonnement sera débité tous les %d jours."
+
+#: includes/wp-full-stripe-main.php:1341
+msgid "Subscription will be charged every %d weeks."
+msgstr "Le montant de l’abonnement sera débité toutes les %d semaines."
+
+#: includes/wp-full-stripe-main.php:1342
+msgid "Subscription will be charged every %d months."
+msgstr "Le montant de l’abonnement sera débité tous les %d mois."
+
+#: includes/wp-full-stripe-main.php:1343
+msgid "Subscription will be charged every %d years."
+msgstr "Le montant de l’abonnement sera débité tous les %d ans."
+
+#: includes/wp-full-stripe-main.php:1344
+msgid "Subscription will be charged every day, for %d occasions."
+msgstr "Le montant de l’abonnement sera débité tous les jours, à %d reprises."
+
+#: includes/wp-full-stripe-main.php:1345
+msgid "Subscription will be charged every week, for %d occasions."
+msgstr "Le montant de l’abonnement sera débité toutes les semaines, à %d reprises."
+
+#: includes/wp-full-stripe-main.php:1346
+msgid "Subscription will be charged every month, for %d occasions."
+msgstr "Le montant de l’abonnement sera débité tous les mois, à %d reprises."
+
+#: includes/wp-full-stripe-main.php:1347
+msgid "Subscription will be charged every year, for %d occasions."
+msgstr "Le montant de l’abonnement sera débité tous les ans, à %d reprises."
+
+#: includes/wp-full-stripe-main.php:1348
+msgid "Subscription will be charged every %1$d days, for %2$d occasions."
+msgstr "Le montant de l’abonnement sera débité tous les %1$d jours, à %2$d reprises."
+
+#: includes/wp-full-stripe-main.php:1349
+msgid "Subscription will be charged every %1$d weeks, for %2$d occasions."
+msgstr "Le montant de l’abonnement sera débité toutes les %1$d semaines, à %2$d reprises."
+
+#: includes/wp-full-stripe-main.php:1350
+msgid "Subscription will be charged every %1$d months, for %2$d occasions."
+msgstr "Le montant de l’abonnement sera débité tous les %1$d mois, à %2$d reprises."
+
+#: includes/wp-full-stripe-main.php:1351
+msgid "Subscription will be charged every %1$d years, for %2$d occasions."
+msgstr "Le montant de l’abonnement sera débité tous les %1$d ans, à %2$d reprises."
+
+#: includes/wp-full-stripe-main.php:1754
+msgid "Starting at %s"
+msgstr "Débutant le %s"
+
+#: includes/wp-full-stripe-main.php:2834 includes/wp-full-stripe-main.php:2843
+#. translators: Validation error message for a field whose value is too long
+msgid "The value for '%s' is too long."
+msgstr "La valeur pour « %s » est trop longue."
+
+#: includes/wp-full-stripe-main.php:3402
+#. translators: Default transaction description for one-time payments
+msgid "Payment on form %FORM_NAME%"
+msgstr "Paiement dans le formulaire %FORM_NAME%"
+
+#: includes/wp-full-stripe-main.php:3408
+#. translators: Default transaction description for saved cards
+msgid "Card saved on form %FORM_NAME%"
+msgstr "Carte bancaire enregistrée dans le formulaire %FORM_NAME%"
+
+#: includes/wp-full-stripe-main.php:3414
+#. translators: Default transaction description for donations
+msgid "Donation on form %FORM_NAME%"
+msgstr "Don dans le formulaire %FORM_NAME%"
+
+#: includes/wp-full-stripe-main.php:3443
+#. translators: Default label for the Terms of Use checkbox
+msgid "I accept the <a href='%s' target='_blank'>Terms of Use</a>"
+msgstr "J’accepte les <a href='%s' target='_blank'>Conditions d’utilisation</a>"
+
+#: includes/wp-full-stripe-main.php:3449
+msgid "Please accept the Terms of Use"
+msgstr "Veuillez accepter les Conditions d’utilisation"
+
+#: includes/wp-full-stripe-my-account-service.php:278
+msgid "You haven't made any payments yet"
+msgstr "Vous n’avez pas encore effectué de paiements"
+
+#: includes/wp-full-stripe-my-account-service.php:850
+msgid "Are you sure you'd like to cancel the selected subscriptions?"
+msgstr "Êtes-vous sûr de vouloir annuler les abonnements sélectionnés ?"
+
+#: includes/wp-full-stripe-my-account-service.php:851
+msgid "Are you sure you'd like to cancel your subscription?"
+msgstr "Êtes-vous sûr de vouloir annuler votre abonnement ?"
+
+#: includes/wp-full-stripe-my-account-service.php:852
+#: includes/wp-full-stripe-my-account-service.php:1478
+msgid "Select at least one subscription!"
+msgstr "Sélectionnez au moins un abonnement."
+
+#: includes/wp-full-stripe-my-account-service.php:855
+#: templates/my-account/my-account.php:59
+#. translators: Default button text for cancelling subscriptions - disabled
+#. state
+#. translators: Button label for cancelling a subscription
+msgid "Cancel subscription"
+msgstr "Annuler l’abonnement"
+
+#: includes/wp-full-stripe-my-account-service.php:858
+#. translators: Button text for cancelling one subscription
+msgid "Cancel 1 subscription"
+msgstr "Annuler 1 abonnement"
+
+#: includes/wp-full-stripe-my-account-service.php:861
+#. translators: Button text for cancelling several subscriptions at once
+msgid "Cancel %d subscriptions"
+msgstr "Annuler %d abonnements"
+
+#: includes/wp-full-stripe-my-account-service.php:1057
+#: includes/wp-full-stripe-my-account-service.php:1103
+msgid "The entered email address is invalid."
+msgstr "L’adresse courriel entrée est invalide."
+
+#: includes/wp-full-stripe-my-account-service.php:1067
+#: includes/wp-full-stripe-my-account-service.php:1077
+#: includes/wp-full-stripe-my-account-service.php:1084
+#: includes/wp-full-stripe-validators.php:360
+#. translators: Captcha validation error message displayed when the form is
+#. submitted without completing the captcha challenge
+msgid "Please prove that you are not a robot. "
+msgstr "Merci de prouver que vous n’êtes pas un robot. "
+
+#: includes/wp-full-stripe-my-account-service.php:1256
+#. translators: Login form validation error when no security code is entered
+msgid "Enter a security code"
+msgstr "Entrez un code de sécurité"
+
+#: includes/wp-full-stripe-my-account-service.php:1281
+#. translators: Login form validation error when an invalid security code is
+#. entered
+msgid "Enter a valid security code"
+msgstr "Entrez un code de sécurité valide"
+
+#: includes/wp-full-stripe-my-account-service.php:1345
+msgid "The default credit card has been updated successfully!"
+msgstr "La carte de crédit par défaut a bien été mise à jour."
+
+#: includes/wp-full-stripe-my-account-service.php:1475
+msgid "The subscriptions have been cancelled"
+msgstr "Les abonnements ont été annulés"
+
+#: includes/wp-full-stripe-my-account-service.php:1587
+msgid "The subscription has been updated successfully"
+msgstr "L’abonnement a bien été mis à jour"
+
+#: includes/wp-full-stripe-my-account-service.php:2029
+#. translators: Displayed in the subscription list when a subscription is
+#. composed of more than one subscription plan
+msgid "Multiple plans"
+msgstr "Plusieurs formules"
+
+#: includes/wp-full-stripe-my-account-service.php:2175
+#. translators: p1: formatted recurring amount with currency symbol p2:
+#. interval count
+msgid "Subscription fee is %s / day"
+msgid_plural "Subscription fee is %1$s / %2$d days"
+msgstr[0] "Le tarif de l’abonnement est de %s/jour"
+msgstr[1] "Le tarif de l’abonnement est de %1$s tous les %2$d jours"
+
+#: includes/wp-full-stripe-my-account-service.php:2187
+#. translators: p1: formatted recurring amount with currency symbol p2:
+#. interval count
+msgid "Subscription fee is %s / week"
+msgid_plural "Subscription fee is %1$s / %2$d weeks"
+msgstr[0] "Le tarif de l’abonnement est de %s/semaine"
+msgstr[1] "Le tarif de l’abonnement est de %1$s toutes les %2$d semaines"
+
+#: includes/wp-full-stripe-my-account-service.php:2199
+#. translators: p1: formatted recurring amount with currency symbol p2:
+#. interval count
+msgid "Subscription fee is %s / month"
+msgid_plural "Subscription fee is %1$s / %2$d months"
+msgstr[0] "Le tarif de l’abonnement est de %s/mois"
+msgstr[1] "Le tarif de l’abonnement est de %1$s tous les %2$d mois"
+
+#: includes/wp-full-stripe-my-account-service.php:2211
+#. translators: p1: formatted recurring amount with currency symbol p2:
+#. interval count
+msgid "Subscription fee is %s / year"
+msgid_plural "Subscription fee is %1$s / %2$d years"
+msgstr[0] "Le tarif de l’abonnement est de %s/an"
+msgstr[1] "Le tarif de l’abonnement est de %1$s tous les %2$d ans"
+
+#: includes/wp-full-stripe-payments.php:473
+#. translators: Validation error message for a card number without a CVC code
+msgid "Please enter a CVC code"
+msgstr "Entrez un cryptogramme"
+
+#: includes/wp-full-stripe-payments.php:711
+#. translators: message for Stripe error code 'invalid_number'
+msgid "Your card number is invalid."
+msgstr "Votre numéro de carte est invalide."
+
+#: includes/wp-full-stripe-payments.php:714
+#. translators: message for Stripe error code 'invalid_expiry_month'
+msgid "Your card's expiration month is invalid."
+msgstr "Le mois d’expiration de votre carte bancaire est invalide."
+
+#: includes/wp-full-stripe-payments.php:717
+#. translators: message for Stripe error code 'invalid_expiry_year'
+msgid "Your card's expiration year is invalid."
+msgstr "L’année d’expiration de votre carte bancaire est invalide."
+
+#: includes/wp-full-stripe-payments.php:720
+#. translators: message for Stripe error code 'invalid_cvc'
+msgid "Your card's security code is invalid."
+msgstr "Le code de sécurité de votre carte est invalide."
+
+#: includes/wp-full-stripe-payments.php:723
+#. translators: message for Stripe error code 'incorrect_number'
+msgid "Your card number is incorrect."
+msgstr "Le numéro de votre carte est incorrect."
+
+#: includes/wp-full-stripe-payments.php:726
+#. translators: message for Stripe error code 'expired_card'
+msgid "Your card has expired."
+msgstr "Votre carte bancaire a expiré."
+
+#: includes/wp-full-stripe-payments.php:729
+#. translators: message for Stripe error code 'incorrect_cvc'
+msgid "Your card's security code is incorrect."
+msgstr "Le code de sécurité de votre carte est incorrect."
+
+#: includes/wp-full-stripe-payments.php:732
+#. translators: message for Stripe error code 'incorrect_zip'
+msgid "Your card's zip code failed validation."
+msgstr "Le code postal de votre carte bancaire n’a pu être validé."
+
+#: includes/wp-full-stripe-payments.php:735
+#. translators: message for Stripe error code 'card_declined'
+msgid "Your card was declined."
+msgstr "Votre carte bancaire a été refusée."
+
+#: includes/wp-full-stripe-payments.php:738
+#. translators: message for Stripe error code 'missing'
+msgid "There is no card on a customer that is being charged."
+msgstr "Il n’y a pas de carte bancaire pour un client en cours de paiement."
+
+#: includes/wp-full-stripe-payments.php:741
+#. translators: message for Stripe error code 'processing_error'
+msgid "An error occurred while processing your card."
+msgstr "Une erreur est survenue pendant le traitement de votre carte bancaire."
+
+#: includes/wp-full-stripe-payments.php:744
+#. translators: Stripe error message 'Missing payment information'
+msgid "Missing payment information"
+msgstr "Il manque des informations de paiement"
+
+#: includes/wp-full-stripe-payments.php:747
+#. translators: Stripe error message 'Could not find payment information'
+msgid "Could not find payment information"
+msgstr "Les informations de paiement n’ont pu être trouvées"
+
+#: includes/wp-full-stripe-payments.php:1281
+#. translators: Error message displayed when subscriber tries to set a quantity
+#. for a subscription which is beyond allowed value
+msgid "Subscription quantity '%d' is not allowed for this subscription!"
+msgstr "Le nombre d’abonnements « %d » n’est pas autorisé pour cet abonnement."
+
+#: includes/wp-full-stripe-payments.php:1293
+#. translators: Error message displayed when subscriber tries to set a quantity
+#. for a subscription where quantity other than one is not allowed.
+msgid "Quantity update is not allowed for this subscription!"
+msgstr "La mise à jour du nombre n’est pas autorisée pour cet abonnement."
+
+#: includes/wp-full-stripe-payments.php:1296
+msgid "Subscription '%s' not found!"
+msgstr "Abonnement « %s » introuvable."
+
+#: includes/wp-full-stripe-public-form-views.php:41
+#. translators: Form field label for card holder's name
+msgid "Cardholder’s name"
+msgstr "Nom du détenteur de la carte bancaire"
+
+#: includes/wp-full-stripe-public-form-views.php:44
+#. translators: Form field label for email address
+msgid "E-mail address"
+msgstr "Adresse courriel"
+
+#: includes/wp-full-stripe-public-form-views.php:47
+#. translators: Form field label for credit card data
+msgid "Card info"
+msgstr "informations de la carte"
+
+#: includes/wp-full-stripe-public-form-views.php:1009
+#. translators: Label for a checkbox which controls whether billing and
+#. shipping address can be entered separately
+msgid "Same billing and shipping address"
+msgstr "Mêmes adresses de facturation et de livraison"
+
+#: includes/wp-full-stripe-public-form-views.php:1013
+#. translators: Form field label for billing address
+msgid "Billing address"
+msgstr "Adresse de facturation"
+
+#: includes/wp-full-stripe-public-form-views.php:1016
+#. translators: Form field label for shipping address
+msgid "Shipping address"
+msgstr "Adresse de livraison"
+
+#: includes/wp-full-stripe-public-form-views.php:1023
+#: includes/wp-full-stripe-public-form-views.php:2384
+#. translators: Option label for the default option of the country selector
+#. dropdown
+msgid "Select country"
+msgstr "Sélectionnez le pays"
+
+#: includes/wp-full-stripe-public-form-views.php:1054
+#. translators: Form field label for the billing name
+msgid "Billing name"
+msgstr "Nom de facturation"
+
+#: includes/wp-full-stripe-public-form-views.php:1057
+#. translators: Form field label for the billing address
+msgid "Billing address street"
+msgstr "Adresse de facturation"
+
+#: includes/wp-full-stripe-public-form-views.php:1060
+#. translators: Form field label for the billing address line 2
+msgid "Billing address line 2"
+msgstr "Ligne 2 de l’adresse de facturation"
+
+#: includes/wp-full-stripe-public-form-views.php:1063
+#: includes/wp-full-stripe-public-form-views.php:1091
+#. translators: Form field label for the postal code of the billing address
+#. translators: Form field label for the postal code of the shipping address
+msgid "Postal code"
+msgstr "Code postal"
+
+#: includes/wp-full-stripe-public-form-views.php:1066
+#: includes/wp-full-stripe-public-form-views.php:1094
+#. translators: Form field label for the state of the billing address
+#. translators: Form field label for the state of the shipping address
+msgid "State"
+msgstr "État"
+
+#: includes/wp-full-stripe-public-form-views.php:1069
+#: includes/wp-full-stripe-public-form-views.php:1097
+#. translators: Form field label for the city of the billing address
+#. translators: Form field label for the city of the shipping address
+msgid "City"
+msgstr "Ville"
+
+#: includes/wp-full-stripe-public-form-views.php:1072
+#: includes/wp-full-stripe-public-form-views.php:1100
+#: includes/wp-full-stripe-public-form-views.php:2380
+#. translators: Form field label for the country of the billing address
+#. translators: Form field label for the country of the shipping address
+msgid "Country"
+msgstr "Pays"
+
+#: includes/wp-full-stripe-public-form-views.php:1082
+#. translators: Form field label for the shipping name
+msgid "Shipping name"
+msgstr "Nom de livraison"
+
+#: includes/wp-full-stripe-public-form-views.php:1085
+#. translators: Form field label for the shipping address
+msgid "Shipping address street"
+msgstr "Adresse de livraison"
+
+#: includes/wp-full-stripe-public-form-views.php:1088
+#. translators: Form field label for the shipping address line 2
+msgid "Shipping address line 2"
+msgstr "Ligne 2 de l’adresse de livraison"
+
+#: includes/wp-full-stripe-public-form-views.php:1443
+#. translators: Form field label for the plan selector
+msgid "Choose subscription plan"
+msgstr "Sélectionnez une formule d’abonnement"
+
+#: includes/wp-full-stripe-public-form-views.php:1446
+#: templates/my-account/my-account.php:142
+#. translators: Form field label for subscription quantity
+#. translators: Field label for changing subscription quantity
+msgid "Subscription quantity"
+msgstr "Nombre d’abonnements"
+
+#: includes/wp-full-stripe-public-form-views.php:1449
+#. translators: Form field placeholder for coupon code
+msgid "Enter coupon code"
+msgstr "Entrez un bon de réduction"
+
+#: includes/wp-full-stripe-public-form-views.php:1451
+#. translators: Form field label for coupon code
+msgid "Coupon"
+msgstr "Bon de réduction"
+
+#: includes/wp-full-stripe-public-form-views.php:1460
+#. translators: Tooltip label for the coupon code field
+msgid "Apply a coupon for a discount to your subscription"
+msgstr "Utilisez un bon de réduction pour profiter d’une remise sur votre abonnement"
+
+#: includes/wp-full-stripe-public-form-views.php:1727
+#: includes/wp-full-stripe-public-form-views.php:1780
+#: includes/wp-full-stripe-public-form-views.php:2134
+#. translators: Form field label for the payment amount that can be entered
+#. manually (think paying invoices)
+#. translators: Form field label for the donation amount that can be entered
+#. manually
+msgid "Amount"
+msgstr "Montant"
+
+#: includes/wp-full-stripe-public-form-views.php:1736
+#. translators: Form field label for selecting a one-time payment amount
+msgid "Select amount"
+msgstr "Sélectionnez le montant"
+
+#: includes/wp-full-stripe-public-form-views.php:1789
+#: includes/wp-full-stripe-public-form-views.php:2143
+#. translators: Button label for entering a payment amount manually (think
+#. donation form)
+msgid "Other"
+msgstr "Autre"
+
+#: includes/wp-full-stripe-public-form-views.php:2051
+#. translators: Form field label for selecting a one-time donation amount
+msgid "Donation frequency"
+msgstr "Fréquence des dons"
+
+#: includes/wp-full-stripe-public-form-views.php:2058
+msgid "One-time"
+msgstr "Ponctuel"
+
+#: includes/wp-full-stripe-public-form-views.php:2065
+msgid "Daily"
+msgstr "Quotidien"
+
+#: includes/wp-full-stripe-public-form-views.php:2071
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+#: includes/wp-full-stripe-public-form-views.php:2077
+msgid "Monthly"
+msgstr "Mensuel"
+
+#: includes/wp-full-stripe-public-form-views.php:2083
+msgid "Annual"
+msgstr "Annuel"
+
+#: includes/wp-full-stripe-public-form-views.php:2108
+#. translators: Form field label for selecting a one-time donation amount
+msgid "Donation amount"
+msgstr "Montant du don"
+
+#: includes/wp-full-stripe-validators.php:14
+msgid "Please enter the cardholder's name"
+msgstr "Entrez le nom du détenteur de la carte bancaire"
+
+#: includes/wp-full-stripe-validators.php:20
+msgid "Please enter a valid email address"
+msgstr "Entrez une adresse courriel valide"
+
+#: includes/wp-full-stripe-validators.php:27
+msgid "Please enter a billing name"
+msgstr "Entrez un nom de facturation"
+
+#: includes/wp-full-stripe-validators.php:33
+msgid "Please enter a billing address"
+msgstr "Entrez une adresse de facturation"
+
+#: includes/wp-full-stripe-validators.php:39
+#: includes/wp-full-stripe-validators.php:92
+msgid "Please enter a city"
+msgstr "Entrez une ville"
+
+#: includes/wp-full-stripe-validators.php:45
+#: includes/wp-full-stripe-validators.php:55
+#: includes/wp-full-stripe-validators.php:98
+#: includes/wp-full-stripe-validators.php:108
+msgid "Please select a country"
+msgstr "Sélectionnez un pays"
+
+#: includes/wp-full-stripe-validators.php:70
+#: includes/wp-full-stripe-validators.php:123
+msgid "Please enter a zip/postal code"
+msgstr "Entrez un code postal"
+
+#: includes/wp-full-stripe-validators.php:80
+msgid "Please enter a shipping name"
+msgstr "Entrez un nom de livraison"
+
+#: includes/wp-full-stripe-validators.php:86
+msgid "Please enter a shipping address"
+msgstr "Entrez une adresse de livraison"
+
+#: includes/wp-full-stripe-validators.php:303
+#: includes/wp-full-stripe-validators.php:314
+#. translators: Form field validation error for custom fields
+msgid "The value for '%s' is too long"
+msgstr "La valeur pour « %s » est trop longue"
+
+#: includes/wp-full-stripe-validators.php:451
+#: includes/wp-full-stripe-validators.php:522
+#. translators: Form field validation error message when custom amount is empty
+msgid "Please enter an amount"
+msgstr "Entrez un nombre"
+
+#: includes/wp-full-stripe-validators.php:456
+#: includes/wp-full-stripe-validators.php:527
+#. translators: Form field validation error message when custom amount is not a
+#. number
+msgid "Please enter a valid amount, use only digits and a decimal separator"
+msgstr "Entrez un nombre valide en utilisant seulement des chiffres et un séparateur des décimales"
+
+#: includes/wp-full-stripe-validators.php:588
+msgid "Invalid plan selected, check your plans and Stripe API mode."
+msgstr "Formule sélectionnée invalide. Vérifiez vos formules et le mode API Stripe."
+
+#: templates/forms/form_not_found.php:1
+msgid "Form not found."
+msgstr "Formulaire introuvable."
+
+#: templates/forms/fullstripe_form.php:148
+#. translators: Banner title of not finding the plan assigned to the form
+msgid "Invalid plan"
+msgstr "Formule invalide"
+
+#: templates/forms/fullstripe_form.php:154
+#. translators: Banner error message of not finding the plan assigned to the
+#. form p1: Form name p2: Plan name
+msgid "Checkout subscription form \"%1$s\": cannot find subscription plan \"%2$s\"."
+msgstr "Vérifiez le formulaire d’abonnement « %1$s » : impossible de trouver la formule d’abonnement « %2$s »."
+
+#: templates/forms/fullstripe_form.php:198
+msgid "Select at least one plan for this form!"
+msgstr "Sélectionnez au moins une formule pour ce formulaire."
+
+#: templates/forms/fullstripe_form.php:231
+#. translators: Message displayed in place of a successfully applied coupon
+#. code
+msgid "Coupon code <strong>%s</strong> added."
+msgstr "Le bon de réduction <strong>%s</strong> a été ajouté."
+
+#: templates/forms/fullstripe_form.php:233
+#. translators: Button label for removing a redeemed coupon code
+msgid "Remove"
+msgstr "Supprimer"
+
+#: templates/forms/fullstripe_form.php:239
+#. translators: Button label for redeeming a coupon
+msgid "Redeem"
+msgstr "Utiliser"
+
+#: templates/forms/fullstripe_form.php:315
+#: templates/forms/fullstripe_form.php:325
+#. translators: Form field label for captcha
+msgid "Prove you are a human"
+msgstr "Merci de prouver que vous êtes un être humain"
+
+#: templates/forms/fullstripe_form.php:345
+#. translators: Link that trigger the opening of the payment details table
+msgid "Payment details"
+msgstr "Détails du paiement"
+
+#: templates/forms/fullstripe_form.php:352
+#. translators: Label for the setup fee line item
+msgid "Setup fee"
+msgstr "Frais d’activation"
+
+#: templates/forms/fullstripe_form.php:357
+#. translators: Label for the subscription plan line item
+msgid "Subscription plan"
+msgstr "Formule d’abonnement"
+
+#: templates/forms/fullstripe_form.php:362
+#: templates/forms/fullstripe_form.php:363
+#. translators: Label for the coupon discount line item. p1: Discount percent
+#. or amount
+msgid "Coupon discount (%s)"
+msgstr "Remise du bon de réduction (%s)"
+
+#: templates/forms/fullstripe_form.php:367
+#: templates/forms/fullstripe_form.php:368
+#. translators: Label for the tax line item. p1: Tax percent
+msgid "VAT (%s%%)"
+msgstr "TVA (%s%%)"
+
+#: templates/forms/fullstripe_form.php:375
+#. translators: Label for the total price
+msgid "Total"
+msgstr "Total"
+
+#: templates/my-account/enter-email-address.php:10
+#: templates/my-account/enter-security-code.php:10
+#: templates/my-account/my-account.php:15
+#. translators: Page title of the Manage Subscriptions page
+msgid "Manage your subscriptions"
+msgstr "Gérer vos abonnements"
+
+#: templates/my-account/enter-email-address.php:13
+msgid "Enter your e-mail address used for subscription(s)."
+msgstr "Entrez votre adresse courriel utilisée pour le ou les abonnements."
+
+#: templates/my-account/enter-email-address.php:15
+msgid "You are going to receive a security code to your e-mail address."
+msgstr "Vous allez recevoir un code de sécurité à votre adresse courriel."
+
+#: templates/my-account/enter-email-address.php:20
+#. translators: Login form field placeholder for the email address
+msgid "Enter e-mail address"
+msgstr "Entrez une adresse courriel"
+
+#: templates/my-account/enter-email-address.php:28
+#. translators: Button label for receiving a security code in email to log in
+msgid "Get security code"
+msgstr "Obtenir un code de sécurité"
+
+#: templates/my-account/enter-security-code.php:14
+#. translators: Login form field placeholder for security code
+msgid "Enter any non-empty security code (DEMO MODE)."
+msgstr "Entrez n’importe quel code de sécurité non vierge (MODE DÉMONSTRATION)."
+
+#: templates/my-account/enter-security-code.php:16
+#. translators: Login form field placeholder for security code
+msgid "Enter the security code sent to your email address."
+msgstr "Entrez le code de sécurité envoyé à votre adresse courriel."
+
+#: templates/my-account/enter-security-code.php:21
+msgid "Enter received security code"
+msgstr "Entrez le code de sécurité reçu"
+
+#: templates/my-account/enter-security-code.php:24
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: templates/my-account/enter-security-code.php:25
+#: templates/my-account/invalid-session.php:10
+#. translators: Link text to restart the login process
+msgid "Back to e-mail address"
+msgstr "Retour à l’adresse courriel"
+
+#: templates/my-account/invalid-session.php:9
+msgid "Your login session is invalid, please log in again."
+msgstr "Votre session de connexion est invalide. Connectez-vous de nouveau."
+
+#: templates/my-account/my-account.php:18
+#. translators: p1: Subscriber's email address
+msgid "You can manage the credit card and subscriptions associated with %s."
+msgstr "Vous avez la possibilité de gérer la carte bancaire et les abonnements associés avec %s."
+
+#: templates/my-account/my-account.php:20
+#. translators: Link text for log out link
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: templates/my-account/my-account.php:24
+#. translators: Label for the Update card section
+msgid "Credit/debit card"
+msgstr "Carte de crédit/débit"
+
+#: templates/my-account/my-account.php:29
+#. translators: Message stating that the Stripe customer doesn't have card set
+#. as payment method.
+msgid "You don't have a default card."
+msgstr "Vous n’avez pas de carte bancaire par défaut."
+
+#: templates/my-account/my-account.php:37
+#. translators: Column header of the card expiry date
+msgid "Expires"
+msgstr "Expire le"
+
+#: templates/my-account/my-account.php:43
+#: templates/my-account/my-account.php:51
+#. translators: Button label for updating the card stored in Stripe
+msgid "Update card"
+msgstr "Mettre la carte bancaire à jour"
+
+#: templates/my-account/my-account.php:52
+#. translators: Button label for discarding card update
+msgid "Discard"
+msgstr "Ignorer"
+
+#: templates/my-account/my-account.php:55
+#. translators: Label for the Subscriptions section
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+#: templates/my-account/my-account.php:62
+#. translators: Label for the Invoices section
+msgid "Invoices"
+msgstr "Factures"
+
+#: templates/my-account/my-account.php:77
+#. translators: Button label for downloading an invoice
+msgid "Download"
+msgstr "Télécharger"
+
+#: templates/my-account/my-account.php:109
+#: templates/my-account/my-account.php:129
+#. translators: Label for the creation date of subscription
+msgid "Created on"
+msgstr "Créé le"
+
+#: templates/my-account/my-account.php:116
+#. translators: Button label for changing subscription quantity
+msgid "Change quantity"
+msgstr "Modifier le nombre"
+
+#: templates/my-account/my-account.php:123
+#. translators: Button label for cancelling subscription
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/my-account/my-account.php:150
+#. translators: Label for subscription summary with price and interval
+msgid "Summary:"
+msgstr "Récapitulatif :"
+
+#: templates/my-account/my-account.php:158
+#. translators: Button label for updating subscription quantity
+msgid "Update quantity"
+msgstr "Mettre à jour le nombre"
+
+#: templates/my-account/my-account.php:165
+#. Translators: Button label for discarding subscription quantity update
+msgid "You don't have any subscriptions."
+msgstr "Vous n’avez aucun abonnement."
+
+#: templates/my-account/my-account.php:168
+msgid "You don't have any finalized invoices."
+msgstr "Vous n’avez aucune facture définitive."
+
+#: templates/my-account/my-account.php:174
+msgid "We couldn't update subscription. Please try again"
+msgstr "Nous n’avons pu mettre à jour votre abonnement. Réessayez"
+
+#: templates/my-account/my-account.php:180
+msgid "Failed subscription cancellation, try again."
+msgstr "Échec de l’annulation de l’abonnement. Réessayez."
+
+#: wp-full-stripe.php:41
+#. translators: p1: Required version of PHP p2: Current version of PHP
+msgid ""
+"The minimum PHP version for running WP Full Stripe is %1$s but %2$s is "
+"found.<br/><br/>Please press the \"Back\" browser button, upgrade PHP, and "
+"activate the plugin again."
+msgstr "La version minimale de PHP pour WP Full Stripe est %1$s, mais la version %2$s a été détectée.<br/><br/>Appuyez sur le bouton « Retour » du navigateur, mettez à niveau le PHP et réactivez l’extension."
+
+#: wp-full-stripe.php:48
+#. translators: p1: Required version of Wordpress p2: Current version of
+#. Wordpress
+msgid ""
+"The minimum WordPress version for running WP Full Stripe is %1$s but %2$s "
+"is found.<br/><br/>Please press the \"Back\" browser button, upgrade "
+"Wordpress, and activate the plugin again."
+msgstr "La version minimale de WordPress pour WP Full Stripe est %1$s, mais la version %2$s a été détectée.<br/><br/>Appuyez sur le bouton « Retour » du navigateur, mettez à niveau WordPress et réactivez l’extension."
+
+#: wp-full-stripe.php:55 wp-full-stripe.php:62
+#. translators: p1: Name of required extension p2: Name of required extension
+msgid ""
+"WP Full Stripe cannot find a required PHP extension called "
+"\"%1$s\".<br/><br/>Please press the \"Back\" browser button, install/enable "
+"\"%2$s\" for PHP, and activate the plugin again."
+msgstr "WP Full Stripe ne peut trouver l’extension PHP requise nommée « %1$s ».<br/><br/>Appuyez sur le bouton « Retour » du navigateur, installez ou activez « %2$s » pour PHP, puis réactivez l’extension."
+
+#: wp-full-stripe.php:71
+msgid ""
+"Another plugin has loaded an incompatible Stripe API client. Deactivate all "
+"other Stripe plugins, and try to activate WP Full Stripe again."
+msgstr "Une autre extension a chargé un client API Stripe incompatible. Désactivez toutes les autres extensions Stripe, puis réessayez d’activer WP Full Stripe."
+
+#: wp-full-stripe.php:107
+#. translators: Textual description of how often a periodic task of the plugin
+#. runs
+msgid "Every 15 minutes"
+msgstr "Toutes les 15 minutes"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Full Stripe"
+msgstr "WP Full Stripe"
+
+#. Author URI of the plugin/theme
+msgid "https://paymentsplugin.com"
+msgstr "https://paymentsplugin.com"
+
+#. Description of the plugin/theme
+msgid "Complete Stripe payments integration for Wordpress"
+msgstr "Intégration complète des paiements Stripe pour WordPress"
+
+#. Author of the plugin/theme
+msgid "Mammothology"
+msgstr "Mammothology"

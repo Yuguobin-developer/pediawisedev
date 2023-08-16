@@ -1,0 +1,308 @@
+/**
+ * Gift Page Style
+ */
+
+.feed-page {
+  // Title Banner Section
+  .title-banner-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+
+    .title {
+      width: 25rem;
+      height: 6.25rem;
+      background-image: url("../images/common/title_bg.png");
+      background-size: 100% 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+
+      @media (max-width: 991px) {
+        width: 22.5rem;
+        height: 5rem;
+      }
+
+      @media (max-width: 767px) {
+        width: 18.75rem;
+        height: 3.75rem;
+      }
+
+      h1 {
+        color: $light-color;
+        font-size: 3.25rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 991px) {
+          font-size: 2.75rem;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 2.25rem;
+        }
+      }
+    }
+  }
+
+  // Posts Section
+  .posts-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .title {
+      padding-bottom: 1.875rem;
+
+      h2 {
+        color: $primary;
+        font-size: 2.75rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 767px) {
+          font-size: 2.25rem;
+        }
+      }
+    }
+
+    .post-slider-wrap {
+      margin-bottom: 0;
+
+      .slick-arrow {
+        z-index: 1;
+        width: 1.875rem;
+        height: 1.875rem;
+      }
+
+      .slick-prev {
+        left: calc(50% - 6.5625rem);
+        top: unset;
+        bottom: -4.6875rem; 
+        background-image: url('../images/common/arrow_left.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 1.875rem;
+        height: 1.875rem;
+      }
+
+      .slick-prev::before {
+        display: none;
+      }
+
+      .slick-next {
+        left: calc(50% + 4.6875rem);
+        top: unset;
+        bottom: -4.6875rem; 
+        background-image: url('../images/common/arrow_right.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 1.875rem;
+        height: 1.875rem;
+      }
+
+      .slick-next::before {
+        display: none;
+      }
+
+      .slick-list {
+        .slick-track {
+          display: flex;
+
+          .each {
+            .row {
+              display: flex;
+              align-items: center;
+            }
+            
+            .left-content {
+              .img-wrp {
+                display: block;
+                width: 100%;
+                height: 0;
+                padding-bottom: 100%;
+                position: relative;
+                margin-bottom: 0.9375rem;
+
+                img {
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  object-position: center center;
+                }
+              }
+            }
+
+            .right-content {
+              p {
+                font-size: 1.25rem;
+                font-family: $primary-font;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .view-more {
+      padding-top: 1.875rem;
+
+      a {
+        font-size: 1.375rem;
+        font-weight: 700;
+        font-family: $primary-font;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  // Twitter Feed Section
+  .twitter-feed-section {
+    background-color: #f5f8fa;
+    position: relative;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+    .title {
+      h2 {
+        color: $primary;
+        font-size: 3.25rem;
+        font-family: $secondary-font;
+        position: relative;
+        z-index: 100;
+
+        @media (max-width: 991px) {
+          font-size: 2.75rem;
+        }
+
+        @media (max-width: 991px) {
+          font-size: 2.25rem;
+        }
+      }
+    }
+
+    .embed-code {
+      position: relative;
+      z-index: 10;
+    }
+
+    .pediafeed-corner1 {
+      position: absolute;
+      width: 9.375rem;
+      left: 0;
+      top: 0;
+    }
+
+    .pediafeed-corner2 {
+      position: absolute;
+      width: 9.375rem;
+      left: 0;
+      bottom: 0;
+    }
+
+    .pediafeed-corner3 {
+      position: absolute;
+      width: 9.375rem;
+      right: 0;
+      top: 12.5rem;
+    }
+  }
+
+  // Middle Banner 
+  .middle-banner {
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+    .title {
+      padding-bottom: 1.875rem;
+
+      h2 {
+        color: #ffdfe0;
+        font-size: 2.75rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 991px) {
+          font-size: 2.25rem;
+        }
+      }
+    }
+
+    .subscribe-btn {
+      width: 15.625rem;
+      height: 10rem;
+      background-image: url("../images/common/btn_background.png");
+      background-size: 100% 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+
+      .btn {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: $primary;
+
+        &:hover {
+          color: $primary;
+        }
+
+        &:focus, &:active {
+          outline: none;
+          box-shadow: none;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  // Instagram Feed Section
+  .instagram-feed-section {
+    background-color: #f5f8fa;
+    position: relative;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+    .title {
+      h2 {
+        color: $primary;
+        font-size: 3.25rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 991px) {
+          font-size: 2.75rem;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 2.25rem;
+        }
+      }      
+    }
+
+    .embed-code {
+      position: relative;
+      z-index: 10;
+    }
+  }
+}

@@ -1,0 +1,186 @@
+/*
+    Style for wp-full-stripe forms.  Mostly a cut down version of Twitter Bootstrap css
+    made so it doesn't interfere with the current theme
+*/
+
+
+/* bootstrap alert */
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.alert,
+.alert h4 {
+    color: #c09853;
+}
+
+.alert h4 {
+    margin: 0;
+}
+
+.alert .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+}
+
+.alert-success h4 {
+    color: #468847;
+}
+
+.alert-danger,
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+}
+
+.alert-danger h4,
+.alert-error h4 {
+    color: #b94a48;
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #3a87ad;
+}
+
+.alert-info h4 {
+    color: #3a87ad;
+}
+
+.alert-block {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.alert-block > p,
+.alert-block > ul {
+    margin-bottom: 0;
+}
+
+.alert-block p + p {
+    margin-top: 5px;
+}
+
+/* grid & base layout for form styles */
+
+._25 {
+    width: 21%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._50 {
+    width: 46%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._75 {
+    width: 71%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._100 {
+    width: 96%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Border around member page summaries */
+
+.wpfs-members-summary{
+    /*text-align: center;*/
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0;
+    -moz-box-shadow:0px 1px 2px #ccc;
+    -webkit-box-shadow:0px 1px 2px #ccc;
+    box-shadow:0px 1px 2px #ccc;
+    border-top: solid 1px #F0F0F0;
+}
+
+.wpfs-members-delete-button{
+    background-color: #c22f1d;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e84632),to(#c22f1d));
+    background-image: -webkit-linear-gradient(top,#e84632,#c22f1d);
+    background-image: -moz-linear-gradient(top,#e84632,#c22f1d);
+    background-image: -ms-linear-gradient(top,#e84632,#c22f1d);
+    background-image: -o-linear-gradient(top,#e84632,#c22f1d);
+    background-image: linear-gradient(to bottom,#e84632,#c22f1d);
+    border-color: #ad2716;
+    -webkit-box-shadow: inset 0 1px 0 rgba(245, 87 , 67, 0.5);
+    box-shadow: inset 0 1px 0 rgba(245, 87 , 67, 0.5);
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    /*padding: 0 10px 1px;*/
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpfs-members-delete-button:hover
+{
+    background-color: #ff6557;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e84632),to(#ff6557));
+    background-image: -webkit-linear-gradient(top,#e84632,#ff6557);
+    background-image: -moz-linear-gradient(top,#e84632,#ff6557);
+    background-image: -ms-linear-gradient(top,#e84632,#ff6557);
+    background-image: -o-linear-gradient(top,#e84632,#ff6557);
+    background-image: linear-gradient(to bottom,#e84632,#ff6557);
+    color: #FFF;
+}
+
+.wpfs-members-delete-button:disabled
+{
+    cursor: not-allowed;
+}
+
+.wpfs-members-table{
+    border: 0;
+}
+
+.wpfs-members-table td{
+    border: 0;
+}
+
+.wpfs-right-align{
+    text-align: right;
+}
+
+input.input-mini {
+    width: 60px;
+}

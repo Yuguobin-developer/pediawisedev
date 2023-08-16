@@ -1,0 +1,340 @@
+/**
+ * Gift Page Style
+ */
+
+.gift-page {
+
+  // Gift Hero Section
+  .gift-hero-section {
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+
+    @media (max-width: 991px) {
+      background-image: none !important;
+    }
+
+    @media (max-width: 767px) {      
+      text-align: center;
+    }
+
+    .title {
+      padding-bottom: 0.9375rem;
+
+      h1 {
+        color: $primary;
+        font-size: 3.25rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 1199px) {
+          font-size: 2.75rem;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 2.25rem;
+        }
+      }      
+    }
+
+    .description {
+      padding-bottom: 0.9375rem;
+
+      p {
+        color: $black-color;
+        font-size: 1.875rem;
+        font-family: $primary-font;
+
+        @media (max-width: 1199px) {
+          font-size: 1.625rem;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 1.5rem;
+        }
+      }            
+    }
+
+    .hero-btn {
+      width: 15.625rem;
+      height: 9.375rem;
+      background-image: url("../images/common/btn_background.png");
+      background-size: 100% 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media (max-width: 991px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .btn {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: $primary;
+
+        &:hover {
+          color: $primary;
+        }
+
+        &:focus, &:active {
+          outline: none;
+          box-shadow: none;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  // Gift Ways Section
+  .gift-ways-section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+    .title {
+      padding-bottom: 0.9375rem;
+
+      h2 {
+        color: $primary;
+        font-size: 3.25rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 991px) {
+          font-size: 2.75rem;
+        }
+
+        @media (max-width: 767px) {
+          font-size: 2.25rem;
+        }
+      }
+    }
+
+    .description {
+      padding-bottom: 3rem;
+
+      p {
+        color: $black-color;
+        font-size: 1.375rem;
+        font-family: $primary-font;
+
+        @media (max-width: 767px) {
+          font-size: 1.25rem;
+        }
+      }      
+    }
+
+    .each-way {
+      @media (max-width: 767px) {
+        padding-bottom: 4rem;
+      }
+
+      .img-wrp {
+        padding-bottom: 1.875rem;
+
+        img {
+          max-width: 15.625rem;
+          width: 100%;
+        }        
+      }
+
+      .sub-title {
+        padding-bottom: 0.625rem;
+
+        h3 {
+          font-family: $secondary-font;
+          font-size: 1.875rem;
+          color: $primary;
+          font-weight: bold;
+        }        
+      }
+
+      .description {
+        padding-bottom: 0.9375rem;
+
+        p {
+          color: $black-color;
+          font-size: 1.375rem;
+          font-family: $primary-font;
+        }        
+      }
+    }       
+
+    .gifting-btn {
+      width: 17.5rem;
+      height: 9.375rem;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: url("../images/common/btn_background.png");
+      background-size: 100% 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .btn {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: $primary;
+
+        &:hover {
+          color: $primary;
+        }
+
+        &:focus, &:active {
+          outline: none;
+          box-shadow: none;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  // Middle Banner 
+  .middle-banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    background-size: contain;
+    background-position: right center;
+    background-color: $primary;
+
+
+    @media (max-width: 767px) {
+      background-image: none !important;
+    }
+
+    .title {
+      padding-bottom: 1.875rem;
+
+      h2 {
+        color: #ffdfe0;
+        font-size: 2.75rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 991px) {
+          font-size: 2.25rem;
+        }
+
+        @media (max-width: 767px) {
+          text-align: center;
+        }
+      }
+    }
+
+    .custom-link {
+      a {
+        font-size: 2.25rem;
+        color: #fff;
+
+        @media (max-width: 991px) {
+          font-size: 28px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
+  }
+
+  // FAQ Section
+  .gift-faq-section {
+    padding-bottom: 0rem;
+    padding-top: 4rem;
+
+    .title {
+      padding-bottom: 1.25rem;
+
+      h2 {
+        color: $secondary;
+        font-size: 2.75rem;
+        font-family: $secondary-font;
+
+        @media (max-width: 767px) {
+          font-size: 2.25rem;
+        }
+      }
+    }
+
+    .card {
+      border: none;
+      background: none;
+
+      .card-header {
+        border: none;
+        background: none;
+
+        a {
+          display: flex;
+          font-family: $primary-font;
+          font-size: 1.5rem;
+          color: $primary;
+
+          @media (max-width: 767px) {
+            font-size: 1.375rem;
+          }        
+        }
+
+        .card-link::before {
+          padding-right: 0.9375rem;
+          margin-top: 0.1875rem;
+          content: url("../images/common/faq_minus.png");
+        }
+
+        .card-link.collapsed::before {
+          padding-right: 0.9375rem;
+          margin-top: 0.1875rem;
+          content: url("../images/common/faq_plus.png");
+        }
+      }
+
+      .card-body {
+        padding: 0 1.25rem 0 3.75rem;
+
+        p {
+          font-family: $primary-font;
+          font-size: 1.25rem;
+
+          @media (max-width: 767px) {
+            font-size: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.gift-ways-popup-block {
+  .sub-title {
+    h3 {
+      font-family: $secondary-font;
+      font-size: 1.875rem;
+      color: $primary;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .gift-ways-form {
+    padding-top: 1rem;       
+    
+    .wpfs-form-actions {
+      margin: 2rem 0 0;
+    }
+  }
+} 

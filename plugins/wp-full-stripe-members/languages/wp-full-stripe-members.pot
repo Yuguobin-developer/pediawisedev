@@ -1,0 +1,592 @@
+# Copyright (C) 2020 Mammothology
+# This file is distributed under the same license as the WP Full Stripe Members package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Full Stripe Members 1.6.4\n"
+"Report-Msgid-Bugs-To: https://mammothology.com/forums/\n"
+"POT-Creation-Date: 2020-07-24 12:50:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/edd/WPFSM_EDD_SL_Plugin_Updater.php:244
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/edd/WPFSM_EDD_SL_Plugin_Updater.php:252
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/edd/WPFSM_EDD_SL_Plugin_Updater.php:346
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/edd/WPFSM_EDD_SL_Plugin_Updater.php:346
+msgid "Error"
+msgstr ""
+
+#: includes/license-managers/wpfs-members-license-manager-freemius.php:149
+msgid ""
+"WP Full Stripe Members cannot be activated when WP Full Stripe is not "
+"active. Please install/activate WP Full Stripe."
+msgstr ""
+
+#: includes/license-managers/wpfs-members-license-manager-freemius.php:161
+msgid "Please update your WP Full Stripe plugin. Required version: %s."
+msgstr ""
+
+#: includes/wpfs-members-admin-menu.php:122
+msgid "Member Settings"
+msgstr ""
+
+#: includes/wpfs-members-admin-menu.php:127
+msgid "Member Roles"
+msgstr ""
+
+#: includes/wpfs-members-admin-menu.php:140
+msgid "Registration successful"
+msgstr ""
+
+#: includes/wpfs-members-admin.php:373 includes/wpfs-members-admin.php:390
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/wpfs-members-admin.php:374
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr ""
+
+#: includes/wpfs-members-admin.php:387
+#. translators: %s: user name
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the username %s is "
+"incorrect."
+msgstr ""
+
+#: includes/wpfs-members-admin.php:405
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr ""
+
+#: includes/wpfs-members-admin.php:409
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr ""
+
+#: includes/wpfs-members-admin.php:459 includes/wpfs-members-admin.php:583
+#: includes/wpfs-members-admin.php:631 includes/wpfs-members-admin.php:671
+msgid "No member found. Please re-log and try again."
+msgstr ""
+
+#: includes/wpfs-members-front.php:55
+msgid "WPFS Members"
+msgstr ""
+
+#: includes/wpfs-members-main.php:312
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:314
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:316
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:328
+msgid "%1$s per day"
+msgid_plural "%1$s per %2$d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:330
+msgid "%1$s per week"
+msgid_plural "%1$s per %2$d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:332
+msgid "%1$s per month"
+msgid_plural "%1$s per %2$d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:334
+msgid "%1$s per year"
+msgid_plural "%1$s per %2$d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpfs-members-main.php:344
+#. translators: Membership role 'No Access'
+msgid "No Access"
+msgstr ""
+
+#: includes/wpfs-members-main.php:347
+#. translators: Membership role 'Basic'
+msgid "Basic"
+msgstr ""
+
+#: includes/wpfs-members-main.php:350
+#. translators: Membership role 'Bronze'
+msgid "Bronze"
+msgstr ""
+
+#: includes/wpfs-members-main.php:353
+#. translators: Membership role 'Silver'
+msgid "Silver"
+msgstr ""
+
+#: includes/wpfs-members-main.php:356
+#. translators: Membership role 'Gold'
+msgid "Gold"
+msgstr ""
+
+#: includes/wpfs-members-main.php:359
+#. translators: Membership role 'All Access'
+msgid "All Access"
+msgstr ""
+
+#: includes/wpfs-members-main.php:390 templates/members_page.php:148
+#. translators: Stripe subscription status code 'Active'
+msgid "Active"
+msgstr ""
+
+#: includes/wpfs-members-main.php:393
+#. translators: Stripe subscription status code 'Cancelled'
+msgid "Cancelled"
+msgstr ""
+
+#: includes/wpfs-members-main.php:396
+#. translators: Stripe subscription status code 'Cancelled'
+msgid "Canceling"
+msgstr ""
+
+#: includes/wpfs-members-main.php:399 templates/members_page.php:151
+#. translators: Stripe subscription status code 'Past due'
+msgid "Past due"
+msgstr ""
+
+#: includes/wpfs-members-main.php:402 templates/members_page.php:150
+#. translators: Stripe subscription status code 'Unpaid'
+msgid "Unpaid"
+msgstr ""
+
+#: includes/wpfs-members-main.php:405 templates/members_page.php:152
+#. translators: Stripe subscription status code 'Trialing'
+msgid "Trialing"
+msgstr ""
+
+#: includes/wpfs-members-main.php:462
+msgid "Membership updated successfully."
+msgstr ""
+
+#: includes/wpfs-members-main.php:463
+msgid "Membership canceled successfully."
+msgstr ""
+
+#: includes/wpfs-members-main.php:464
+msgid "Credit card updated successfully."
+msgstr ""
+
+#: includes/wpfs-members-main.php:467
+#. translators: 1: currency symbol/code, 2: amount, 3: interval in singular
+msgid "Price is %1$s%2$s per %3$s"
+msgstr ""
+
+#: includes/wpfs-members-main.php:470
+#. translators: 1: currency symbol/code, 2: amount, 3: interval count > 1, 4:
+#. interval in plural
+msgid "Price is %1$s%2$s per %3$d %4$s"
+msgstr ""
+
+#: includes/wpfs-members-main.php:498
+msgid "There was an error retrieving your account details. Please try again later."
+msgstr ""
+
+#: includes/wpfs-members-main.php:520
+#. translators: message for Stripe error code 'invalid_number'
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: includes/wpfs-members-main.php:523
+#. translators: message for Stripe error code 'invalid_expiry_month'
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: includes/wpfs-members-main.php:526
+#. translators: message for Stripe error code 'invalid_expiry_year'
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: includes/wpfs-members-main.php:529
+#. translators: message for Stripe error code 'invalid_cvc'
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: includes/wpfs-members-main.php:532
+#. translators: message for Stripe error code 'incorrect_number'
+msgid "The card number is incorrect."
+msgstr ""
+
+#: includes/wpfs-members-main.php:535
+#. translators: message for Stripe error code 'expired_card'
+msgid "The card has expired."
+msgstr ""
+
+#: includes/wpfs-members-main.php:538
+#. translators: message for Stripe error code 'incorrect_cvc'
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: includes/wpfs-members-main.php:541
+#. translators: message for Stripe error code 'incorrect_zip'
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: includes/wpfs-members-main.php:544
+#. translators: message for Stripe error code 'card_declined'
+msgid "The card was declined."
+msgstr ""
+
+#: includes/wpfs-members-main.php:547
+#. translators: message for Stripe error code 'missing'
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: includes/wpfs-members-main.php:550
+#. translators: message for Stripe error code 'processing_error'
+msgid "An error occurred while processing the card."
+msgstr ""
+
+#: includes/wpfs-members-tables.php:87
+msgid "Member ID"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:88
+msgid "Email"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:89 includes/wpfs-members-tables.php:274
+msgid "Role"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:90
+msgid "Plan ID"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:91
+msgid "Stripe Customer ID"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:92
+msgid "Joined"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:93 includes/wpfs-members-tables.php:270
+msgid "Actions"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:167 includes/wpfs-members-tables.php:353
+msgid "Edit"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:169 includes/wpfs-members-tables.php:354
+msgid "Delete"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:188 includes/wpfs-members-tables.php:272
+msgid "Member"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:189
+msgid "Members"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:195
+msgid "No members found."
+msgstr ""
+
+#: includes/wpfs-members-tables.php:271
+msgid "ID"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:273
+msgid "User"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:276
+msgid "Stripe subscription"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:277
+msgid "Subscriber"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:278
+msgid "Plan"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:280 includes/wpfs-members-tables.php:281
+msgid "Status"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:282
+msgid "Mode"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:284
+msgid "Created at"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:342 templates/members_page.php:160
+msgid "Test"
+msgstr ""
+
+#: includes/wpfs-members-tables.php:342 templates/members_page.php:159
+msgid "Live"
+msgstr ""
+
+#: templates/members_account.php:8
+msgid "My Account"
+msgstr ""
+
+#: templates/members_account.php:11
+msgid "DEMO VERSION: Updating membership is disabled."
+msgstr ""
+
+#: templates/members_account.php:16
+msgid "Membership Level"
+msgstr ""
+
+#: templates/members_account.php:20
+msgid "Membership Price"
+msgstr ""
+
+#: templates/members_account.php:36
+msgid "Membership End Date"
+msgstr ""
+
+#: templates/members_account.php:38
+msgid "Next Billing Date"
+msgstr ""
+
+#: templates/members_account.php:50
+msgid "Membership Status"
+msgstr ""
+
+#: templates/members_account.php:64
+msgid "Select New Level"
+msgstr ""
+
+#: templates/members_account.php:109
+msgid "(Re-join)"
+msgstr ""
+
+#: templates/members_account.php:115
+msgid "Change Membership Level"
+msgstr ""
+
+#: templates/members_account.php:117
+msgid "Changing membership will prorate subscription costs."
+msgstr ""
+
+#: templates/members_account.php:136
+msgid ""
+"You can add new credit card details here. Your old details will be removed "
+"and future payments taken from this card."
+msgstr ""
+
+#: templates/members_account.php:140 templates/members_account.php:198
+msgid "Update Credit Card"
+msgstr ""
+
+#: templates/members_account.php:146
+msgid "Card Holder's Name"
+msgstr ""
+
+#: templates/members_account.php:152
+msgid "Card Number"
+msgstr ""
+
+#: templates/members_account.php:156
+msgid "Card Expiry Month"
+msgstr ""
+
+#: templates/members_account.php:159
+msgid "January"
+msgstr ""
+
+#: templates/members_account.php:160
+msgid "February"
+msgstr ""
+
+#: templates/members_account.php:161
+msgid "March"
+msgstr ""
+
+#: templates/members_account.php:162
+msgid "April"
+msgstr ""
+
+#: templates/members_account.php:163
+msgid "May"
+msgstr ""
+
+#: templates/members_account.php:164
+msgid "June"
+msgstr ""
+
+#: templates/members_account.php:165
+msgid "July"
+msgstr ""
+
+#: templates/members_account.php:166
+msgid "August"
+msgstr ""
+
+#: templates/members_account.php:167
+msgid "September"
+msgstr ""
+
+#: templates/members_account.php:168
+msgid "October"
+msgstr ""
+
+#: templates/members_account.php:169
+msgid "November"
+msgstr ""
+
+#: templates/members_account.php:170
+msgid "December"
+msgstr ""
+
+#: templates/members_account.php:175
+msgid "Card Expiry Year"
+msgstr ""
+
+#: templates/members_account.php:190
+msgid "Card CVC"
+msgstr ""
+
+#: templates/members_account.php:216
+msgid ""
+"Your subscription will be cancelled immediately. Any pending proration will "
+"be charged within an hour after cancellation."
+msgstr ""
+
+#: templates/members_account.php:220
+msgid "Cancel Membership"
+msgstr ""
+
+#: templates/members_account.php:227
+msgid "Are you sure you want to cancel your membership?"
+msgstr ""
+
+#: templates/members_account.php:229
+msgid "Yes, Cancel My Membership"
+msgstr ""
+
+#: templates/members_account.php:232
+msgid "No, Don't Cancel My Membership"
+msgstr ""
+
+#: templates/members_page.php:11
+msgid "Full Stripe Members"
+msgstr ""
+
+#: templates/members_page.php:140
+msgid "Loading..."
+msgstr ""
+
+#: templates/members_page.php:144
+msgid "Member: "
+msgstr ""
+
+#: templates/members_page.php:144
+msgid "Enter user, member id, or email address"
+msgstr ""
+
+#: templates/members_page.php:145
+msgid "Status: "
+msgstr ""
+
+#: templates/members_page.php:147 templates/members_page.php:158
+msgid "All"
+msgstr ""
+
+#: templates/members_page.php:149
+msgid "Canceled"
+msgstr ""
+
+#: templates/members_page.php:153
+msgid "Deleted"
+msgstr ""
+
+#: templates/members_page.php:154
+msgid "Unknown"
+msgstr ""
+
+#: templates/members_page.php:156
+msgid "Mode: "
+msgstr ""
+
+#: templates/members_page.php:163
+msgid "Search"
+msgstr ""
+
+#: templates/members_page.php:163
+msgid "or"
+msgstr ""
+
+#: templates/members_page.php:164
+msgid "Reset"
+msgstr ""
+
+#: templates/members_page.php:182
+#. translators: 1: current version
+msgid "Full Stripe Members Help (v%s)"
+msgstr ""
+
+#: templates/non_member_account.php:5
+msgid "You are not a member of this website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Full Stripe Members"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://paymentsplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fully featured membership add-on for WP Full Stripe.  Create premium "
+"content for subscribers only."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mammothology"
+msgstr ""

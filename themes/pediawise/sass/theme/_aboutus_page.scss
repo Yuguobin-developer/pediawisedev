@@ -1,0 +1,757 @@
+/**
+ * About Us Page Style
+ */
+
+.about-us-page {
+
+    // Hero Section
+    .about-us-hero-section {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    // About Section
+    .about-section {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+
+        .title {
+            padding-bottom: 0.9375rem;
+
+            h2 {
+                color: $primary;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                    text-align: center;
+                }
+
+            }            
+        }
+
+        .content {
+            padding-bottom: 0.9375rem;
+
+            p {
+                color: $black-color;
+                font-size: 1.625rem;
+                font-family: $primary-font;
+
+                @media (max-width: 767px) {
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }                  
+        }
+
+        .signup-btn {
+            width: 15.625rem;
+            height: 5rem;
+            background-size: 100% 100%;
+            background-position: left top;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: auto;
+            margin-left: auto;
+
+            .btn {
+                font-family: $primary-font;
+                font-weight: 700;
+                font-size: 1.375rem;
+                color: $white-color;
+
+                &:hover {
+                    color: $white-color;
+                }
+
+                &:focus, &:active {
+                    outline: none;
+                    box-shadow: none;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+
+    // Subscription Info Section
+    .subscription-info-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background-color: $light-color;
+
+        @media (max-width: 767px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+
+        .title {
+            padding-bottom: 0.9375rem;
+            text-align: center;
+
+            h2 {
+                color: $primary;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                    text-align: center;
+                }
+            }            
+        }
+
+        .description {
+            text-align: center;
+            padding-bottom: 2rem;
+
+            p {
+                color: $black-color;
+                font-size: 1.5rem;
+                font-family: $primary-font;
+            }                  
+        }
+
+        .membership-info {
+            position: relative;
+
+            .underline1 {
+                position: absolute;
+                height: 100%;
+                right: calc(50% - 0.9375rem);
+                transform: rotate(-1.5deg);
+
+                @media (max-width: 500px) {
+                    right: calc(50% + 1.875rem);
+                }
+            }
+
+            .underline2 {
+                position: absolute;
+                height: 100%;
+                right: 0;
+                transform: rotate(-1.5deg);
+            }
+
+            .underline3 {
+                position: absolute;
+                height: 100%;
+                right: 25%;
+                transform: rotate(-1.5deg);
+
+                @media (max-width: 500px) {
+                    right: 30%;
+                }
+            }
+
+            table {
+                thead {
+                    tr {
+                        vertical-align: top;
+
+                        th {
+                            padding: 0.9375rem;
+                        }
+                    }
+
+                    .th-title {
+                        font-size: 1.25rem;
+                        color: $primary;
+                        font-weight: 700;
+                        font-family: $primary-font;
+                        text-align: center;
+                        margin: 0;
+
+                        @media (max-width: 767px) {
+                            font-size: 0.875rem;
+                        }
+                    }
+
+                    .th-price-info {
+                        font-size: 1rem;
+                        color: $black-color;
+                        font-family: $primary-font;
+                        text-align: center;
+                        margin: 0;
+
+                        @media (max-width: 767px) {
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            text-align: center;
+                        }
+
+                        td:first-child {
+                            width: 50%;
+                            text-align: left;
+                        }
+                    }
+
+                    td {
+                        padding: 0.3125rem 0.9375rem 0.3125rem 0;
+
+                        img {              
+                            max-width: 100%;
+                            width: 100px;
+
+                            @media (max-width: 767px) {
+                                width: 5rem;
+                            }
+                        }
+                    }
+
+                    .option-title {
+                        font-size: 1.25rem;
+                        color: $primary;
+                        font-weight: 700;
+                        font-family: $primary-font;
+                        margin: 0px;
+                        text-decoration: underline;
+
+                        @media (max-width: 767px) {
+                            font-size: 0.875rem;
+                        }
+                    }
+
+                    .option-description {
+                        font-size: 1.125rem;
+                        color: $black-color;
+                        font-family: $primary-font;
+
+                        @media (max-width: 767px) {
+                            font-size: 0.75rem;
+                        }
+                    }
+
+                    tr:last-child {
+                        .signup-btn {
+                            width: 7.5rem;
+                            height: 3.125rem;
+                            background-image: url("../images/common/common_btn_bg_blue.png");
+                            background-size: 100% 100%;
+                            background-position: left top;
+                            background-repeat: no-repeat;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-left: auto;
+                            margin-right: auto;
+
+                            @media (max-width: 767px) {
+                                width: 5rem;
+                                height: 2.5rem;
+                            }
+
+                            .btn {
+                                font-family: $primary-font;
+                                font-weight: 700;
+                                font-size: 1.125rem;
+                                color: $white-color;
+
+                                @media (max-width: 767px) {
+                                    font-size: 0.875rem;
+                                }
+
+                                &:hover {
+                                    color: $white-color;
+                                }
+
+                                &:focus, &:active {
+                                    outline: none;
+                                    box-shadow: none;
+                                    background-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }        
+            }
+        }
+    }
+
+    // Meet the Doctor Section
+    .meet-the-doctor-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        position: relative;
+
+        .meet-doctor-effect {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 16vw;
+            z-index: 10;
+            min-width: 220px;
+        }
+
+        .row {
+            align-items: center;
+        }
+
+        .left-content {
+            img {
+                width: 400px;
+                max-width: 100%;
+            }
+        }
+
+        .right-content {
+
+            .title {
+
+                padding-bottom: 20px;
+
+                h2 {
+                    color: $primary;
+                    font-size: 3.25rem;
+                    font-family: $secondary-font;
+
+                    @media (max-width: 991px) {
+                        font-size: 2.75rem;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 2.25rem;
+                        text-align: center;
+                    }
+
+                } 
+                padding-left: 30px;
+                @media (max-width: 767px) {
+                    padding-left: 0;
+                }     
+            }
+
+            .content {
+
+                p {
+                    color: $black-color;
+                    font-size: 1.25rem;
+                    font-family: $primary-font;
+
+                    @media (max-width: 991px) {
+                      font-size: 1.125rem;
+                    }
+
+                    @media (max-width: 767px) {
+                      font-size: 1rem;
+                    }
+                }
+
+                .sub-title {
+                    color: $primary;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                }
+
+                ol {
+                    li {
+                        color: $black-color;
+                        font-size: 1.25rem;
+                        font-family: $primary-font;
+
+                        @media (max-width: 991px) {
+                          font-size: 1.125rem;
+                        }
+
+                        @media (max-width: 767px) {
+                          font-size: 1rem;
+                        }
+                    }
+                }
+
+                padding-left: 30px;
+                @media (max-width: 767px) {
+                    padding-left: 0;
+                }
+            }
+
+        }
+    }
+
+    // Gift Middle Banner 
+    .gift-middle-banner {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: auto;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+        background-size: contain;
+        background-position: right center;
+        background-color: #86BFEB;
+
+
+        .title {
+           padding-bottom: 1.875rem;
+
+            h2 {
+                color: #ffdfe0;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                    text-align: center;
+                }
+            }
+        }
+
+        .description {
+
+            p {
+                color: #010101;
+                font-size: 2.25rem;
+                font-family: $primary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 1.875rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 1.625rem;
+                    text-align: center;
+                }
+            }
+        }
+
+        .custom-link {
+            @media (max-width: 767px) {
+                text-align: center;
+            }
+
+            a {
+                font-family: $primary-font;
+                font-size: 2.25rem;
+                color: $primary; 
+
+                &:hover {
+                    color: $primary !important;
+                }
+
+                @media (max-width: 991px) {
+                    font-size: 1.875rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    // History Section
+    .history-section {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+
+        .title {
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+
+            h2 {
+                color: $primary;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                    text-align: center;
+                }
+
+            }            
+        }
+
+        .title {
+            padding-bottom: 0.9375rem;
+            padding-top: 2rem;
+
+            h3 {
+                color: $secondary;
+                font-size: 2.5rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.25rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }            
+        }
+
+        .content {
+            p {
+                color: $black-color;
+                font-size: 1.5rem;
+                font-family: $primary-font;
+
+                @media (max-width: 991px) {
+                  font-size: 1.25rem;
+                }
+
+                @media (max-width: 767px) {
+                  font-size: 1.125rem;
+                  text-align: center;
+                }
+            }
+        }
+
+        .the-need {
+            .right-img-wrp {
+                position: relative;
+                height: 100%;
+
+                img {
+                    position: absolute;
+                    right: -6.25rem;
+                    top: 50%;
+                    max-height: 100%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .the-problem {
+            .left-img-wrp {
+                position: relative;
+                height: 100%;
+
+                img {
+                    // //width: 100%;
+                    // position: absolute;
+                    // // left: calc(34.6875rem - 50vw);
+                    // left: -7.5rem;
+                    // top: 12rem;
+                    // 
+                    position: absolute;
+                    left: -10.25rem;
+                    top: 50%;
+                    max-height: 100%;
+                    transform: translateY(-50%);
+
+                    // @media (max-width: 1199px) {
+                    //     left: calc(29.0625rem - 50vw);
+                    // }
+
+                    // @media (max-width: 991px) {
+                    //     left: calc(21.5625rem - 50vw);
+                    // }
+
+                    // @media (max-width: 767px) {
+                    //     left: calc(15.9375rem - 50vw);
+                    // }
+
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .the-solution {
+            .right-img-wrp {
+                position: relative;
+                height: 100%;
+                img {
+                    // max-width: unset;
+                    // position: absolute;
+                    // right: calc(34.6875rem - 50vw);
+                    // right: -18.5rem;
+                    // top: 0rem;
+                    // width: 50vw;
+                    max-width: unset;
+                    position: absolute;
+                    right: -20.5rem;
+                    top: 0;
+                    width: auto;
+                    max-height: 100%;
+
+                    
+
+                    @media(max-width: 1440px) {
+                        right: -22.5rem;
+                    }
+                    
+                    // @media (max-width: 1199px) {
+                    //     right: calc(29.0625rem - 50vw);
+                    // }
+
+                    // @media (max-width: 991px) {
+                    //     right: calc(21.5625rem - 50vw);
+                    // }
+
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    // Middle Banner
+    .middle-banner {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: auto;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+
+        .title {
+            padding-bottom: 1.875rem;
+
+            h2 {
+                color: #ffdfe0;
+                font-size: 2.75rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                  font-size: 2.25rem;
+                }
+            }
+        }
+
+        .subscribe-btn {
+            width: 15.625rem;
+            height: 10rem;
+            background-image: url("../images/common/btn_background.png");
+            background-size: 100% 100%;
+            background-position: left top;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .btn {
+                font-family: $primary-font;
+                font-weight: 700;
+                font-size: 22px;
+                color: $primary;
+
+                &:hover {
+                    color: $primary;
+                }
+
+                &:focus, &:active {
+                    outline: none;
+                    box-shadow: none;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+
+    // FAQ Section
+    .aboutus-faq-section {
+        padding-bottom: 0;
+        padding-top: 6rem;
+
+        .title {
+            padding-bottom: 1.25rem;
+
+            h2 {
+                color: $secondary;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                    text-align: center;
+                }
+            }
+        }
+
+        .card {
+            border: none;
+            background: none;
+
+            .card-header {
+                border: none;
+                background: none;
+
+                a {
+                    display: flex;
+                    font-family: $primary-font;
+                    font-size: 1.5rem;
+                    color: $primary;
+
+                    @media (max-width: 767px) {
+                        font-size: 1.25rem;
+                    }
+                }
+
+                .card-link::before {
+                    padding-right: 0.9375rem;
+                    margin-top: 0.1875rem;
+                    content: url("../images/common/faq_minus.png");
+                }
+
+                .card-link.collapsed::before {
+                    padding-right: 0.9375rem;
+                    margin-top: 0.1875rem;
+                    content: url("../images/common/faq_plus.png");
+                }
+            }
+
+            .card-body {
+                padding: 0 1.25rem 0px 3.75rem;
+
+                p {
+                    font-family: $primary-font;
+                    font-size: 1.25rem;
+
+                    @media (max-width: 767px) {
+                        font-size: 1.125rem;
+                    }
+                }
+            }
+        }
+    }
+}

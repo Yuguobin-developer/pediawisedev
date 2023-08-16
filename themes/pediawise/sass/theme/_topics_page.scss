@@ -1,0 +1,570 @@
+/**
+ * Topics Page Style
+ */
+
+.topics-page {
+
+    // Title Banner Section
+    .title-banner-section {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: auto;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+
+        @media (max-width: 767px) {
+            background-image: none !important;
+        }
+
+        .title {
+            height: 6.25rem;
+            width: 37.5rem;
+            background-size: 100% 100%;
+            background-position: left top;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            @media (max-width: 991px) {
+                height: 5rem;
+                width: 31.25rem;
+            }
+
+            @media (max-width: 767px) {
+                height: 5rem;
+                width: 31.25rem;
+            }
+
+            @media (max-width: 552px) {
+                height: 7.5rem;
+                width: 100%;
+            }
+
+            h1 {
+                color: $light-color;
+                font-size: 3rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.5rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+
+                @media (max-width: 552px) {
+                    font-size: 2rem;
+                    padding: 0 1.875rem;
+                }
+            }
+        }
+    }
+
+    // Pragnancy Section
+    .pregnancy-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        .title {
+            padding-bottom: 2rem;
+
+            h2 {
+                color: $primary;
+                font-size: 3rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.5rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+            }
+        }
+
+        .posts {
+            .each {
+                margin-bottom: 1.875rem;
+
+                .inner-wrp {
+                    background-color: #eef0f9;
+                    height: 100%;
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .img-wrp {
+                        display: block;
+                        width: 100%;
+                        height: 0;
+                        padding-bottom: 56.25%;
+                        position: relative;
+                        margin-bottom: 0.9375rem;
+
+                        img {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                        }
+                    }
+
+                    .sub-title {
+                        padding: 0 1.875rem 0.9375rem 1.875rem;
+
+                        p {
+                            color: $black-color;
+                            font-size: 1.25rem;
+                            font-family: $primary-font;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Baby Section
+    .baby-section {
+        background-color: $secondary;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        .title {
+            padding-bottom: 2rem;
+
+            h2 {
+                color: $primary;
+                font-size: 3rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.5rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+            }
+        }
+
+        .posts {
+            .each {
+                margin-bottom: 1.875rem;
+
+                .inner-wrp {
+                    background-color: #eef0f9;
+                    height: 100%;
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .img-wrp {
+                        display: block;
+                        width: 100%;
+                        height: 0;
+                        padding-bottom: 56.25%;
+                        position: relative;
+                        margin-bottom: 0.9375rem;
+
+                        img {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                        }
+                    }
+
+                    .sub-title {
+                        padding: 0 1.875rem 0.9375rem 1.875rem;
+                        
+                        p {
+                            color: $black-color;
+                            font-size: 1.25rem;
+                            font-family: $primary-font;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Toddler Section
+    .toddler-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        .title {
+            padding-bottom: 2rem;
+
+            h2 {
+                color: $primary;
+                font-size: 3rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.5rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+            }
+        }
+
+        .posts {
+            .each {
+                margin-bottom: 1.875rem;
+
+                .inner-wrp {
+                    background-color: #eef0f9;
+                    height: 100%;
+
+                    a {
+                        text-decoration: none;
+                    }                    
+
+                    .img-wrp {
+                        display: block;
+                        width: 100%;
+                        height: 0;
+                        padding-bottom: 56.25%;
+                        position: relative;
+                        margin-bottom: 0.9375rem;
+
+                        img {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                        }
+                    }
+
+                    .sub-title {
+                        padding: 0 1.875rem 0.9375rem 1.875rem;
+                        
+                        p {
+                            color: $black-color;
+                            font-size: 1.25rem;
+                            font-family: $primary-font;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    // PediaFeed Section
+    .pediafeed-section {
+        background-color: $primary;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        .title {
+            padding-bottom: 2rem;
+
+            h2 {
+                color: $light-color;
+                font-size: 3rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.5rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+            }
+        }
+        .posts {
+            margin-bottom: 0;
+
+            .slick-arrow {
+                z-index: 1;
+                width: 1.875rem;
+                height: 1.875rem;
+            }
+
+            .slick-prev {
+                left: -3.125rem; 
+                background-image: url('../images/common/arrow_left_light_pink.png');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+                width: 1.875rem;
+                height: 1.875rem;
+
+                @media (max-width: 767px) {
+                  left: -1.5625rem;
+                }
+
+                @media (max-width: 552px) {
+                  left: -0.9375rem;
+                }
+            }
+
+            .slick-prev::before {
+                display: none;
+            }
+
+            .slick-next {
+                right: -3.125rem; 
+                background-image: url('../images/common/arrow_right_light_pink.png');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+                width: 1.875rem;
+                height: 1.875rem;
+
+                @media (max-width: 767px) {
+                  right: -1.5625rem;
+                }
+
+                @media (max-width: 552px) {
+                  right: -0.9375rem;
+                }
+            }
+
+            .slick-next::before {
+                display: none;
+            }
+
+            .slick-list {
+                .slick-track {
+                    display: flex;
+
+                    .each {
+                        padding: 0 2.5rem;
+                        height: auto;
+                        position: relative;
+
+                        &:before {
+                            position: absolute;
+                            background-image: url('../images/common/pediafeed_doodle.png');
+                            background-size: 3.75rem 1.6875rem;
+                            width: 3.75rem; 
+                            height: 1.6875rem;
+                            top: calc(50% - 0.75rem);
+                            right: -1.875rem;
+                            content:"";
+                        }
+
+                        .sub-title {
+                            padding-bottom: 0.9375rem;
+
+                            h3 {
+                                color: $secondary;
+                                font-size: 1.375rem;
+                                font-family: $primary-font;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .description {
+                            p {
+                                color: $white-color;
+                                font-size: 1.125rem;
+                                font-family: $primary-font;
+                            }
+                        }   
+                    }
+                }
+            }
+        }
+    }
+
+
+    // Category Section
+    .category-section {
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+
+        .each {
+            @media (max-width: 767px) {
+                padding-bottom: 4rem;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .img-wrp {
+                padding-bottom: 1.875rem;
+
+                img {
+                    max-width: 100%;
+                    width: 12.5rem;
+                    height: auto;
+                    transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.1, 1.1);
+                    }
+                }
+            }
+
+            .sub-title {
+                h3 {
+                    color: $primary;
+                    font-size: 1.375rem;
+                    font-family: $primary-font;
+                    font-weight: 700;  
+                }
+                
+            }
+        }
+    }
+
+    // More info section
+    .more-info-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        .img-wrp {
+            padding-bottom: 1.875rem;
+
+            img {
+                max-width: 100%;
+                width: 20rem;
+            }
+        }
+
+        .title {
+            padding-bottom: 1.25rem;
+
+            h2 {
+                color: $primary;
+                font-size: 3.25rem;
+                font-family: $secondary-font;
+
+                @media (max-width: 991px) {
+                    font-size: 2.75rem;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 2.25rem;
+                }
+            }
+        }
+
+        .description {
+            p {
+                color: $black-color;
+                font-size: 1.375rem;
+                font-family: $primary-font;
+            }
+            padding-bottom: 1.25rem;
+        }
+
+        .search-wrp {
+            padding-top: 0.9375rem;
+
+            .inner-wrp {
+                margin-left: auto;
+                margin-right: auto;
+                width: 40rem;
+                height: 5rem;
+                background-image: url("../images/common/search_wrp.png");
+                background-size: 100% 100%;
+                background-position: left top;
+                background-repeat: no-repeat;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @media (max-width: 767px) {
+                    width: 25rem;
+                    height: 3.75rem;
+                }
+
+                @media (max-width: 400px) {
+                    width: calc(100% - 1.875rem);
+                }
+
+                input {
+                    width: 26.875rem;
+                    height: 3.75rem;
+                    border: none;
+                    margin-right: 2.5rem;
+                    margin-left: 1.25rem;
+
+                    @media (max-width: 767px) {
+                        width: 15.625rem;
+                        height: 2.5rem;
+                    }
+
+                    @media (max-width: 400px) {
+                        width: calc(100% - 9.375rem);
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                .submit-btn {
+                    width: 7.5rem;
+                    height: 3.75rem;
+                    background-image: url("../images/common/submit_button_bg.png");
+                    background-size: 100% 100%;
+                    background-position: left top;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @media (max-width: 767px) {
+                        width: 4.6875rem;
+                        height: 2.5rem;
+                    }
+
+                    .btn {
+                        font-family: $primary-font;
+                        font-weight: 700;
+                        font-size: 1.375rem;
+                        color: $white-color;
+
+                        @media (max-width: 767px) {
+                            font-size: 1.125rem;
+                        }
+
+                        &:hover {
+                            color: $white-color;
+                        }
+
+                        &:focus, &:active {
+                            outline: none;
+                            box-shadow: none;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
